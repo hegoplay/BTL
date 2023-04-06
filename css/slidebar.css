@@ -1,0 +1,55 @@
+.app_withslidebar{
+    padding: 0 40px 0 20px;
+}
+.slide_box 
+{
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    height: 270px;
+    width: 100%;
+    border-radius: 20px;
+}
+.slide_img{
+    width: 1000px;
+    overflow: hidden;
+    opacity: 0;
+}
+.slide_img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition:  opacity 1s ease-in-out;
+    overflow: hidden;
+    /* background-image: url('/image/silde1.jpg');
+    background-size: cover; */
+   
+}
+#prevBtn{
+    transition: opacity 0.3s ease-in-out;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    border: none;
+    left: 75px;
+    top: 200px;
+    cursor: pointer;
+    background-color: white;
+   
+}
+#nextBtn{
+    transition: opacity 0.3s ease-in-out;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    border: none;
+    right: 20px;
+    top: 200px;
+    cursor: pointer;
+    background-color: white;
+}
+.slide_box div.active{
+    opacity: 1;
+}
