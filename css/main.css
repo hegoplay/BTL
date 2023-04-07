@@ -10,6 +10,9 @@ html{
     padding: 0;
     margin: 0;
 }
+nav{
+  
+}
 .header{
     padding: 0;
     display: flex;
@@ -77,8 +80,9 @@ main{
     overflow: hidden;
 }
 .menu{
-    width: 72px;
-   height: 72px;
+    width: 100px;
+    
+  
     margin-top: 70px;
     display: flex;
     position: fixed;
