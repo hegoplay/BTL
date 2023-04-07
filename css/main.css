@@ -3,6 +3,9 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+/* div{
+    display: block;
+} */
 *{
     padding: 0;
     margin: 0;
@@ -14,7 +17,12 @@ html{
     align-items: center;
    justify-content: space-between;
     margin: none;
-    border-bottom: 2px solid #e8ebed;
+    border-bottom: 2px solid #020c13;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 .header_top{
     display: flex ;
@@ -65,17 +73,23 @@ html{
 
 /* cainaytrongmain */
 main{
-    display: grid;
-    grid-template-columns: 1fr 16fr;
-    grid-template-rows: 1fr;
+    
+    overflow: hidden;
 }
 .menu{
+    width: 72px;
+   height: 72px;
+    margin-top: 70px;
     display: flex;
-    align-items: center;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    background-color: white;
     justify-content: center;
-    
+    border-right: #020c13 1px solid;
+
 }
-.menu1{
+.menu .menu1{
     border-radius: 50%;
     cursor: pointer;
     margin: 17px;
@@ -86,15 +100,17 @@ main{
     font-size: 1.6rem;
     align-items: center;
     justify-content: center;
+    display: flex;
+    cursor: pointer;
 }
-.menu2{
-   width: 72px;
-   height: 72px; 
-   cursor: pointer;
-   align-items: center;
+.menu .menu2{
+    display: flex;
+    flex-direction: column;
+    width: 72px;
+    height: 72px;
+    align-items: center;
     justify-content: center;
-    display: block;
-    text-align: center;
+    cursor: pointer;
 }
 
   
@@ -104,37 +120,5 @@ main{
     font-weight: 200;
     margin-top: 6px;
 }
-.menu3{
-    width: 72px;
-   height: 72px; 
-   width: 72px;
-   height: 72px; 
-   cursor: pointer;
-   align-items: center;
-    justify-content: center;
-    display: block;
-    text-align: center;
-}
-.menu4{
-    width: 72px;
-   height: 72px; 
-   width: 72px;
-   height: 72px; 
-   cursor: pointer;
-   align-items: center;
-    justify-content: center;
-    display: block;
-    text-align: center;
-}
-.menu5{
-    width: 72px;
-   height: 72px; 
-   width: 72px;
-   height: 72px; 
-   cursor: pointer;
-   align-items: center;
-    justify-content: center;
-    display: block;
-    text-align: center;
-}
-/* Phan slide */
+
+

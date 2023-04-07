@@ -1,0 +1,102 @@
+a:focus, a:hover, a:visited {
+    outline: none;
+    
+
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.home_wrapper{
+    margin-top: 70px;
+    overflow: hidden;
+    padding: 0 44px 74px
+}
+.home_wrapper_heading{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.home_wrapper_heading_element{
+    color: #242424;
+    
+    font-weight: 900;
+}
+.home_wrapper_heading_lable{
+    background-color: #1473e6;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 3px 6px;
+    position: relative;
+    right: -8px;
+    text-transform: uppercase;
+    top: -6px;
+}
+.index_home_wrapper_body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.thumb {
+    background-color: rgba(0,0,0,.1);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    width: 240px;
+  }
+.thumb:hover .thumb_element{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    border-color: #fff;
+    color: #000;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;    
+}
+.thumb_element button{
+    padding: 9px;
+    display: inline-block;
+    border-radius: 20px;
+    border: none;
+}
+  .thumb_element {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+.crown_icon{
+    background-color: rgba(0,0,0,.3);
+    border-radius: 8px;
+    left: 12px;
+    padding: 5px;
+    pointer-events: none;
+    position: absolute;
+    top: 12px;
+}
+.oldprice{
+    font-size: 0.9rem;
+    text-decoration: line-through 2px solid;
+}
+.newprice{
+    color: red;
+}
