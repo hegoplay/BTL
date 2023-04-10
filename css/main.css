@@ -113,6 +113,7 @@ main{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border-radius: 20px;
 }
 
   
@@ -122,5 +123,7 @@ main{
     font-weight: 200;
     margin-top: 6px;
 }
-
+.menu2:hover{
+    background-color: #E8EBED;
+}
 

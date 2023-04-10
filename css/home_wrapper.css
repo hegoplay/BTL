@@ -143,3 +143,26 @@ a{
 .xemlotrinh:hover{
     text-decoration: underline;
 }
+.access{
+    font-size: 0.9rem;
+ 
+}
+/* bai viet noi bac */
+
+.thumb_element_item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height:30px ;
+}
+.thumb_element_item img{
+    border-radius: 50%;
+   
+    object-fit: cover;
+    width: 25px;
+    height: 25px;
+}
+.thumb_element_item span{
+    font-weight: 600;
+    font-size: 0.8rem;
+}
