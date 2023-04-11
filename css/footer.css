@@ -77,3 +77,22 @@ footer{
     color:whitesmoke;
     
 }
+.footer-final{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0 0;
+    align-items: center;
+}
+.footer-copyright{
+    font-size: 1.4rem;
+    margin: 14px 0;
+    display:inline-block;
+}
+.footer-social-icon{
+    width: 28px;
+    height: 28px;
+}
+.footer-social{
+    display: inline-flex;
+    gap:10px;
+}
