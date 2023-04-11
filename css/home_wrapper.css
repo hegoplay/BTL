@@ -1,0 +1,205 @@
+a:focus, a:hover, a:visited {
+    outline: none;
+    
+
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+h2{
+    font-size: 1.5rem;
+}
+.home_wrapper{
+    margin-top: 70px;
+    overflow: hidden;
+    padding: 0 44px 74px
+}
+    .home_wrapper_heading{
+        display: flex;
+        align-items: center;
+        height: 60px;
+        justify-content: space-between;
+    }
+    .home_wrapper_heading_element{
+        color: #242424;
+        height: 65px;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .home_wrapper_heading_lable{
+        background-color: #1473e6;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 3px 6px;
+        position: relative;
+        right: -8px;
+        text-transform: uppercase;
+        top: -6px;
+    }
+
+.index_home_wrapper_body{
+    display: flex;
+    flex-wrap: wrap;
+    height: 260px;
+}
+.thumb {
+    background-color: rgba(0,0,0,.1);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    width: 280px;
+  
+}
+    .thumb:hover .thumb_element {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.5);
+        color: #000;
+        font-size: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    .thumb_element button{
+        padding: 9px;
+        display: inline-block;
+        border-radius: 20px;
+        border: none;
+    }
+    .thumb:hover .thumb_element button{
+        padding: 9px;
+        display: inline-block;
+        border-radius: 20px;
+        border: none;
+        animation: XKH 0.3s ease-in-out;
+    }
+  .thumb_element {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+@keyframes XKH {
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.crown_icon{
+    background-color: rgba(0,0,0,.3);
+    border-radius: 8px;
+    left: 12px;
+    padding: 5px;
+    pointer-events: none;
+    position: absolute;
+    top: 12px;
+}
+.oldprice{
+    font-size: 0.9rem;
+    text-decoration: line-through 2px solid;
+}
+.newprice{
+    color: red;
+}
+
+.index_home_wrapper_body{
+    justify-content: space-between;
+}
+.home_wrapper_element_p{
+    color: #82919b;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+.xemlotrinh{
+   color: #F3734F; 
+   font-size: 0.9rem;
+   font-weight: 600;
+}
+.xemlotrinh:hover{
+    text-decoration: underline;
+}
+.access{
+    font-size: 0.9rem;
+ 
+}
+/* bai viet noi bac */
+
+.thumb_element_item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height:30px ;
+}
+.thumb_element_item1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height:30px ;
+}
+.thumb_element_item img{
+    border-radius: 50%;
+   
+    object-fit: cover;
+    width: 25px;
+    height: 25px;
+}
+.thumb_element_item span{
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.play_button{
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.play_button_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 40px;height: 40px;background-color: white;
+}
+.play_button_right{
+    height: 35px;width: 65px ;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    font-size: 0.9rem;
+}

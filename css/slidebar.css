@@ -1,24 +1,41 @@
 .app_withslidebar{
-    padding: 0 40px 0 20px;
+    padding: 0 40px 0 0;
+    
+    margin:90px 0 0 130px;
+    position: relative;
 }
 .slide_box 
 {
+    position: relative;
     overflow: hidden;
-    margin-top: 20px;
-    display: flex;
     height: 270px;
     width: 100%;
     border-radius: 20px;
 }
-.slide_img{
-    width: 1000px;
+.slide_box div.active{
+    opacity: 1;
+}
+.slide_img {
     overflow: hidden;
+    display: flex;
     opacity: 0;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #7414ff, #1798ff);
 }
 .slide_img img{
+    width: 100%;
+	height: 100%;
+    object-fit: cover;
+}
+.slide_img div{
+     padding: 0 20px 0 20px;;
+}
+.slide_box .slide_img{
     object-fit: cover;
     width: 100%;
     height: 100%;
+    position: absolute;
     transition:  opacity 1s ease-in-out;
     overflow: hidden;
     /* background-image: url('/image/silde1.jpg');
@@ -27,29 +44,58 @@
 }
 #prevBtn{
     transition: opacity 0.3s ease-in-out;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
     position: absolute;
-    border: none;
-    left: 75px;
-    top: 200px;
-    cursor: pointer;
+    top: 130px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px; 
+    left: -20px;
     background-color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
    
+    
 }
 #nextBtn{
     transition: opacity 0.3s ease-in-out;
-    height: 40px;
     width: 40px;
+    height: 40px;
+    transform: translateY(-50%);
     border-radius: 50%;
     position: absolute;
     border: none;
-    right: 20px;
-    top: 200px;
+    right: 15px;
+    top: 130px;
     cursor: pointer;
     background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
-.slide_box div.active{
-    opacity: 1;
+.slide_show_left{
+   
+    align-items: center;
+    width: 640px;
+    flex-shrink: 0;
+    justify-content: center;
+    line-height: 1.6;
+    max-width: 100%;
 }
+.slide_show_left_element_p{
+    max-width: 600px;
+    color: white;
+}
+.slide_show_left_element_a{
+    border: 2px solid #fff;
+border-radius: 16px;
+color: #fff;
+display: inline-block;
+font-size: 1.4rem;
+font-weight: 700;
+min-width: 124px;
+padding: 4px 10px;
+text-align: center;
+transition: .2s ease;
+}
+
+/* Khoa hoc mien phi */
