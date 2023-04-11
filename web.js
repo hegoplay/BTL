@@ -26,7 +26,7 @@ function showPrevious() {
 }
 
 function startSlider() {
-    intervalID = setInterval(showNext, 100000);
+    intervalID = setInterval(showNext,1000);
 }
 
 function stopSlider() {

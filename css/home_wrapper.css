@@ -7,7 +7,9 @@ a{
     color: #000;
     text-decoration: none;
 }
-
+h2{
+    font-size: 1.5rem;
+}
 .home_wrapper{
     margin-top: 70px;
     overflow: hidden;
@@ -57,6 +59,7 @@ a{
     padding-top: 56.25%;
     position: relative;
     width: 280px;
+  
 }
     .thumb:hover .thumb_element {
         display: flex;
@@ -155,6 +158,12 @@ a{
     gap: 5px;
     height:30px ;
 }
+.thumb_element_item1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height:30px ;
+}
 .thumb_element_item img{
     border-radius: 50%;
    
@@ -165,4 +174,32 @@ a{
 .thumb_element_item span{
     font-weight: 600;
     font-size: 0.8rem;
+}
+
+.play_button{
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.play_button_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 40px;height: 40px;background-color: white;
+}
+.play_button_right{
+    height: 35px;width: 65px ;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    font-size: 0.9rem;
 }
