@@ -1,6 +1,6 @@
 var images = document.querySelectorAll(".slide_img");
-var prevBtn = document.querySelector(".slide_box .controls #prevBtn");
-var nextBtn = document.querySelector(".slide_box .controls #nextBtn");
+var prevBtn = document.querySelector(".app_withslidebar .controls #prevBtn");
+var nextBtn = document.querySelector(".app_withslidebar .controls #nextBtn");
 var currentIndex = 0;
 var intervalID;
 
@@ -26,7 +26,7 @@ function showPrevious() {
 }
 
 function startSlider() {
-    intervalID = setInterval(showNext, 3000);
+    intervalID = setInterval(showNext,1000);
 }
 
 function stopSlider() {
