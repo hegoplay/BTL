@@ -1,12 +1,4 @@
-a:focus, a:hover, a:visited {
-    outline: none;
-    
 
-}
-a{
-    color: #000;
-    text-decoration: none;
-}
 h2{
     font-size: 1.5rem;
 }

@@ -1,48 +1,52 @@
-html{
-  
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-}
-div{
-    display: block;
-}
 *{
     padding: 0;
     margin: 0;
 }
+a:focus, a:hover, a:visited {
+    outline: none;
+    color: #000;
+    text-decoration: none;
 
-.header{
-    padding: 0;
-    display: flex;
-    height: 66px;
-    align-items: center;
-   justify-content: space-between;
-    margin: none;
-    border-bottom: 2px solid #020c13;
-    position: fixed;
-    z-index: 2;
-    width: 100%;
-    background-color: white;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
-.header_top{
-    display: flex ;
+a{
+    color: #000;
+    text-decoration: none;
+}
+.container-fluid{
+    padding-left: 0;
+    height: 100%;
+    padding-right: 0;
+}
+.header{
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: sticky;
+    height: 65px; 
     align-items: center;
-    float: left;
     padding-left: 20px;
     padding-right: 20px;
 }
-.left_item{
-    display: block;
-    align-items: center;  
-    margin-left: 16px;
-    font-weight: 700;
+.header_item{
+    padding-left: 20px;
+    padding-right: 20px ;
+    align-items: center;
 }
-.center_item{
-    height: 37px;
-    width: 425px;
-    border-radius: 50px;
-    border: 2px solid #e8ebed;
+.header_item input{
+    height: 40px;
+    align-items: center;
+    width: 420px;
+    border-radius: 30px;
+    border: 1px solid #E8E8E8;
+}
+
+.header_item a{
+    color: #808990;
+    font-size: 0.8rem;
+    padding-left: 15px;
+}
+.header_item a:hover {
+    text-decoration: none;
+    color: #808990;
 }
 .image_small{
     height: 40px;
@@ -51,10 +55,6 @@ div{
 .image_right{
     height: 20px;
     margin-right: 22px;
-}
-.top_right{
-    display: flex;
-    
 }
 .right_item{
     background-color: transparent;
@@ -72,24 +72,16 @@ div{
     object-fit: cover;
 }
 
-/* cainaytrongmain */
-main{
-    
-    overflow: hidden;
-}
 .menu{
     width: 100px;
-    
-  
-    margin-top: 70px;
     display: flex;
-    position: fixed;
-    z-index: 1;
+    z-index: 2;
     height: 100%;
+    position: sticky;
     background-color: white;
     justify-content: center;
     border-right: #020c13 1px solid;
-
+    padding-right: 0;
 }
 .menu .menu1{
     border-radius: 50%;
@@ -115,15 +107,10 @@ main{
     cursor: pointer;
     border-radius: 20px;
 }
-
-  
-.menu span{
-    display: block;
-    font-size: 0.8rem;
-    font-weight: 200;
-    margin-top: 6px;
-}
 .menu2:hover{
     background-color: #E8EBED;
 }
-
+.main{
+   
+     margin-left: 83px; 
+}
