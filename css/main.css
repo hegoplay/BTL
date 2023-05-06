@@ -138,3 +138,58 @@ main{
 .menu-active{
     background-color: #e8ebed;
 }
+/* User infomation */
+.header #user-info{
+    display:none;
+    width: 200px;
+    position: absolute;
+    z-index: 10;
+    right: 5px;
+    top: 67px;
+    padding:12px;
+    font-size:1.4rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15), 0 0 3px 3px rgba(0, 0, 0, 0.12), 0 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.header .user-img{
+    float: left;
+    height: 100%;
+}
+.header .user-txt{
+    display: flex;
+    width: calc(100%-40px);
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 1.4rem;
+    padding-left: 20px;
+    
+}
+.header .user-name{
+    font-size: 1.6rem;
+}
+.header .user-desc{
+    font-size:1.4rem;
+    opacity: 0.6;
+}
+.header .user-heading{
+    height: 40px;
+}
+.header .user-container{
+    margin-top: 1.6rem;
+}
+.header .user-container-row{
+    display: block;
+    font-size:1.4rem;
+    padding: 1rem 0;
+    opacity: 0.7;
+}
+.header .user-container-row:hover{
+    opacity: 0.8;
+}
+.header .line-break{
+    margin: 8px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
