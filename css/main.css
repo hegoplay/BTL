@@ -1,26 +1,31 @@
-html{
-  
+html {
+
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-div{
+
+div {
     display: block;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-size: 10px;
+    box-sizing: border-box;
+    --primary-color: #f05123;
 }
-body{
+
+body {
     position: relative;
 }
 
-.header{
+.header {
     padding: 0;
     display: flex;
     height: 66px;
     align-items: center;
-   justify-content: space-between;
+    justify-content: space-between;
     margin: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -29,40 +34,47 @@ body{
     background-color: white;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
-.header_top{
-    display: flex ;
+
+.header_top {
+    display: flex;
     align-items: center;
     float: left;
     padding-left: 20px;
     padding-right: 20px;
 }
-.left_item{
+
+.left_item {
     display: block;
-    align-items: center;  
+    align-items: center;
     margin-left: 16px;
     font-weight: 700;
     font-size: 1.4rem;
 }
-.center_item{
+
+.center_item {
     height: 37px;
     width: 425px;
     border-radius: 50px;
     border: 2px solid #e8ebed;
     transition: border-color .2s ease-in-out;
 }
-.image_small{
+
+.image_small {
     height: 40px;
     border-radius: 10px;
 }
-.image_right{
+
+.image_right {
     height: 20px;
     margin-right: 22px;
 }
-.top_right{
+
+.top_right {
     display: flex;
-    
+
 }
-.right_item{
+
+.right_item {
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -70,20 +82,22 @@ body{
     overflow: hidden;
     outline: none;
     margin-right: 30px;
-    font-size: 1,4rem;
+    font-size: 1, 4rem;
 }
-.usericon{
+
+.usericon {
     border-radius: 50%;
     height: 30px;
     object-fit: cover;
 }
 
 /* cainaytrongmain */
-main{
-    
+main {
+
     overflow: hidden;
 }
-.menu{
+
+.menu {
     width: 100px;
     margin-top: 70px;
     display: flex;
@@ -94,7 +108,8 @@ main{
     justify-content: center;
 
 }
-.menu .menu1{
+
+.menu .menu1 {
     border-radius: 50%;
     cursor: pointer;
     margin: 17px;
@@ -109,11 +124,13 @@ main{
     cursor: pointer;
     transition: all 0.5s ease;
 }
-.menu .menu1:hover{
+
+.menu .menu1:hover {
     font-size: 3.2rem;
     transition: all 0.5s ease;
 }
-.menu .menu2{
+
+.menu .menu2 {
     display: flex;
     flex-direction: column;
     width: 72px;
@@ -124,39 +141,43 @@ main{
     border-radius: 20px;
 }
 
-  
-.menu span{
+
+.menu span {
     display: block;
     font-size: 1rem;
     font-weight: 200;
     margin-top: 6px;
 }
 
-.menu2:hover{
+.menu2:hover {
     background-color: #E8EBED;
 }
-.menu-active{
+
+.menu-active {
     background-color: #e8ebed;
 }
+
 /* User infomation */
-.header #user-info{
-    display:none;
+.header #user-info {
+    display: none;
     width: 200px;
     position: absolute;
     z-index: 10;
     right: 5px;
     top: 67px;
-    padding:12px;
-    font-size:1.4rem;
+    padding: 12px;
+    font-size: 1.4rem;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15), 0 0 3px 3px rgba(0, 0, 0, 0.12), 0 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.header .user-img{
+
+.header .user-img {
     float: left;
     height: 100%;
 }
-.header .user-txt{
+
+.header .user-txt {
     display: flex;
     width: calc(100%-40px);
     height: 100%;
@@ -165,31 +186,38 @@ main{
     align-items: flex-start;
     font-size: 1.4rem;
     padding-left: 20px;
-    
+
 }
-.header .user-name{
+
+.header .user-name {
     font-size: 1.6rem;
 }
-.header .user-desc{
-    font-size:1.4rem;
+
+.header .user-desc {
+    font-size: 1.4rem;
     opacity: 0.6;
 }
-.header .user-heading{
+
+.header .user-heading {
     height: 40px;
 }
-.header .user-container{
+
+.header .user-container {
     margin-top: 1.6rem;
 }
-.header .user-container-row{
+
+.header .user-container-row {
     display: block;
-    font-size:1.4rem;
+    font-size: 1.4rem;
     padding: 1rem 0;
     opacity: 0.7;
 }
-.header .user-container-row:hover{
+
+.header .user-container-row:hover {
     opacity: 0.8;
 }
-.header .line-break{
+
+.header .line-break {
     margin: 8px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
