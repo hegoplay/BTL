@@ -1,0 +1,82 @@
+* {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    --height: 44px;
+}
+
+.background-img {
+    position: relative;
+    background-size: auto;
+    height: 100vh;
+}
+
+.login-card {
+    position: absolute;
+    display: block;
+    width: 640px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.login-card .login-section {
+    margin: 8px 0 0;
+}
+
+.login-card .login-content {
+    padding: 48px 16px;
+}
+
+.login-card .login-logo {
+    border-radius: 8px;
+    width: 44px;
+
+}
+
+.login-card .login-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 20px 0;
+    color: #292929;
+}
+
+.login-card .login-selections {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-card .login-selections-item {
+    display: block;
+    line-height: var(--height);
+    width: 320px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: var(--height);
+    text-align: start;
+    padding-left: 16px;
+}
+
+.login-card .login-selections-item * {
+    font-size: 1.4rem;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.login-card .login-selections-item i {
+    left: 0;
+}
+
+.login-card .login-selections-item span {
+    left: 10px;
+}
+
+.login-card .login-register {}
+
+.login-card .login-desc {}
+
+.login-card .login-nav {}
+
+.login-card .login-nav .login-nav-item {}
