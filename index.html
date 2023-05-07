@@ -7,7 +7,9 @@
         <link rel="stylesheet" href="./css/main.css" />
         <link rel="stylesheet" href="./css/slidebar.css" />
         <link rel="stylesheet" href="./css/home_wrapper.css">
+        <link rel="stylesheet" href="./css/footer.css">
         <script src="https://kit.fontawesome.com/545c91a9e5.js" crossorigin="anonymous"></script>
+
         <title>F8 - học lập trình để đi làm! | Học lập trình online | Học lập trình Javascript</title>
         <!-- <script>
             $(#test) function( {
@@ -29,8 +31,42 @@
                 <div class="header_top top_right">
                     <button class="right_item">Khóa học của tôi</button>
                     <img class="image_right"  src="/image/icone-de-cloche-grise.png" alt="">
-                    <img class="usericon" src="/image/User-Icon-Grey.png" alt="">
+                    <img class="usericon" id = "user-icon" src="/image/User-Icon-Grey.png" alt="" onclick="userIconOnClick()">
                 </div>
+                <!-- Begin UserBox -->
+                <div id="user-info">
+                    <div class="user-heading">
+                        <img src="/image/User-Icon-Grey.png" alt="" class="usericon user-img">
+                        <div class="user-txt">
+                            <h3 class="user-name">Phạm Thế Mạnh</h3>
+                            <p class="user-desc">@phamTheManh</p>
+                        </div>
+                        
+                    </div>
+                    <div class="user-container">
+                        <div class="line-break"></div>
+                        <a href="#" class="user-container-row">Trang cá nhân</a>
+                            
+
+                        <div class="line-break"></div>
+                        <a href="#" class="user-container-row">
+                            Viết blog
+                        </a>
+                        <a href="#" class="user-container-row">
+                            Bài viết của tôi
+                        </a>
+                        <div class="line-break"></div>
+                        <a href="#" class="user-container-row">
+                            Bài viết đã lưu
+                        </a>
+                        <div class="line-break"></div>
+                        <a href="#" class="user-container-row">
+                            Cài đặt
+                        </a>
+                        <a href="#" class="user-container-row">Đăng xuất</a>
+                    </div>
+                </div>
+                <!-- End UserBox -->
             </div>
             <main>
                 <div class="menu">
@@ -1007,14 +1043,80 @@
                         </div>
                     </div>
                 </div>
+
                 <script src="/web.js"></script>
-                <!-- <div id="test">
+                <!-- <div id="test"></div> -->
 
-                </div> -->
-                
-
-
-            </main>
+        </main>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item" style="width: 25%;">
+                <div class = "footer-item-header">
+                    <img src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png" alt="f8" style="height: 38px;width:38px;border-radius:8px">
+                    <span class = "footer-item-title">Học Lập Trình Để Đi Làm</span>
+                </div>
+                <div class="footer-item-contact-list">
+                    Điện thoại:
+                    <a href="#a">0944.xxx.xxx</a><br>
+                    Email:
+                    <a href="#a">thmnh113@gmail.com</a><br>
+                    Địa chỉ: Số xx Phạm Văn Đồng, , Thành phố Thủ Đức TP.HCM
+                </div>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer-item-title">VỀ F8</h2>
+                <ul class="footer-item-list">
+                    <li> <a href="#a">Giới thiệu</a> </li>
+                    <li> <a href="#a">Liên hệ</a> </li>
+                    <li> <a href="#a">Điều khoản</a> </li>
+                    <li> <a href="#a">Bảo mật</a> </li>
+                    <li> <a href="#a">Cơ hội việc làm</a> </li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer-item-title">SẢN PHẨM</h2>
+                <ul class="footer-item-list">
+                    <li> <a href="#a">Game Nester</a> </li>
+                    <li> <a href="#a">Game CSS Diner</a> </li>
+                    <li> <a href="#a">Game CSS Selectors</a> </li>
+                    <li> <a href="#a">Game Froggy</a> </li>
+                    <li> <a href="#a">Game Froggy Pro</a> </li>
+                    <li> <a href="#a">Game Scoops</a> </li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer-item-title">CÔNG CỤ</h2>
+                <ul class="footer-item-list">
+                    <li> <a href="#a">Tạo CV xin việc</a> </li>
+                    <li> <a href="#a">Rút gọn liên kết</a> </li>
+                    <li> <a href="#a">Clip-path maker</a> </li>
+                    <li> <a href="#a">Snippet generator</a> </li>
+                    <li> <a href="#a">Cảnh báo sờ tay lên mặt</a> </li>
+                </ul>
+            </div>
+            <div class="footer-item" style="width: 25%;">
+                <div class = "footer-item-header">
+                    
+                    <span class = "footer-item-title">CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8</span>
+                </div>
+                <div class="footer-item-contact-list">
+                    Mã số thuế: 010992xxxx
+                    <br>
+                    Ngày thành lập: 10/04/2023
+                    <br>
+                    Lĩnh vực: Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá trị cho cộng đồng.
+                </div>
+            </div>
         </div>
-    </body>
+        <div class="footer-final">
+            <div class="footer-copyright">&#169; 2022 - 2023 F8. Vjp Pro mãi đỉnh</div>
+            <div class="footer-social">
+                <img src="image/youtube.png" alt="" class="footer-social-icon">
+                <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/128/facebook-icon.png"  class="footer-social-icon">
+                <img src="image/tiktok.png"  class="footer-social-icon">
+            </div>
+        </div>
+    </footer>
+</body>
 </html>

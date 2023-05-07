@@ -47,3 +47,19 @@ nextBtn.addEventListener("click", function() {
 });
 
 startSlider();
+
+// hien thi trang user khi click vao
+let userInfo = document.getElementById("user-info")
+let onOff= 1;
+function userIconOnClick(){
+    if (onOff == 1){
+        userInfo.style.display = "block";
+        userInfo.style.transform = "translateX(-10px)"
+        onOff = 0;
+    }
+    else{
+        userInfo.style.display = "none";
+        onOff = 1;
+    }
+    
+}
