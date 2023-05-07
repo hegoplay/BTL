@@ -1,1060 +1,1130 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/main.css" />
-        <link rel="stylesheet" href="./css/slidebar.css" />
-        <link rel="stylesheet" href="./css/home_wrapper.css">
-        <link rel="stylesheet" href="./css/footer.css">
-        <script src="https://kit.fontawesome.com/545c91a9e5.js" crossorigin="anonymous"></script>
 
-        <title>F8 - học lập trình để đi làm! | Học lập trình online | Học lập trình Javascript</title>
-        <!-- <script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/slidebar.css" />
+    <link rel="stylesheet" href="./css/home_wrapper.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="https://kit.fontawesome.com/545c91a9e5.js" crossorigin="anonymous"></script>
+
+    <title>F8 - học lập trình để đi làm! | Học lập trình online | Học lập trình Javascript</title>
+    <!-- <script>
             $(#test) function( {
                 .load("./test.html")
             })
         </script> -->
-    </head>
-    <body>
-        <div id="box">
-            <div class="header">
-                <div class="header_top top_left">
-                    <img class="image_small " src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png" alt="">
-                    <h4 class="left_item ">Học Lập Trình Để Đi Làm</h4>
-                </div>
-                <div class="header_top">
-                    <div class="search_icon"></div>
-                    <input class="center_item" type="text" name="" placeholder="Tìm kiếm khóa học, bài viết, Video, ...">
-                </div>
-                <div class="header_top top_right">
-                    <button class="right_item">Khóa học của tôi</button>
-                    <img class="image_right"  src="/image/icone-de-cloche-grise.png" alt="">
-                    <img class="usericon" id = "user-icon" src="/image/User-Icon-Grey.png" alt="" onclick="userIconOnClick()">
-                </div>
-                <!-- Begin UserBox -->
-                <div id="user-info">
-                    <div class="user-heading">
-                        <img src="/image/User-Icon-Grey.png" alt="" class="usericon user-img">
-                        <div class="user-txt">
-                            <h3 class="user-name">Phạm Thế Mạnh</h3>
-                            <p class="user-desc">@phamTheManh</p>
-                        </div>
-                        
-                    </div>
-                    <div class="user-container">
-                        <div class="line-break"></div>
-                        <a href="#" class="user-container-row">Trang cá nhân</a>
-                            
+</head>
 
-                        <div class="line-break"></div>
-                        <a href="#" class="user-container-row">
-                            Viết blog
-                        </a>
-                        <a href="#" class="user-container-row">
-                            Bài viết của tôi
-                        </a>
-                        <div class="line-break"></div>
-                        <a href="#" class="user-container-row">
-                            Bài viết đã lưu
-                        </a>
-                        <div class="line-break"></div>
-                        <a href="#" class="user-container-row">
-                            Cài đặt
-                        </a>
-                        <a href="#" class="user-container-row">Đăng xuất</a>
-                    </div>
-                </div>
-                <!-- End UserBox -->
+<body>
+    <div id="box">
+        <div class="header">
+            <div class="header_top top_left">
+                <img class="image_small " src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png"
+                    alt="">
+                <h4 class="left_item ">Học Lập Trình Để Đi Làm</h4>
             </div>
-            <main>
-                <div class="menu">
-                    <nav>
-                        <div class="menu1 ">+</div>
-                        <div class="menu2 ">
-                            <img style="height: 19px;width: 22px;margin-top: 10px;" src="/image/house.png" alt="">
-                            <span>Home</span>
-                        </div>
-                        <div class="menu2 ">
-                            <img style="height: 25px;width: 30px;margin-top: 10px;" src="/image/path.png" alt="">
-                            <span>Lộ trình</span>
-                        </div>
-                        <div class="menu2 ">
-                            <img style="height: 28px;width: 33px;margin-top: 10px;" src="/image/pngtree-light-bulb-icon-png-image_4231685.png" alt="">
-                            <span>Học</span>
-                        </div>
-                        <div class="menu2 ">
-                            <img style="height: 25px;width: 25px;margin-top: 10px;" src="/image/blog.png" alt="">
-                            <span>Blog</span>
-                        </div>
-                    </nav>
+            <div class="header_top">
+                <div class="search_icon"></div>
+                <input class="center_item" type="text" name="" placeholder="Tìm kiếm khóa học, bài viết, Video, ...">
+            </div>
+            <div class="header_top top_right">
+                <button class="right_item">Khóa học của tôi</button>
+                <img class="image_right" src="/image/icone-de-cloche-grise.png" alt="">
+                <img class="usericon" id="user-icon" src="/image/User-Icon-Grey.png" alt="" onclick="userIconOnClick()">
+            </div>
+            <!-- Begin UserBox -->
+            <div id="user-info">
+                <div class="user-heading">
+                    <img src="/image/User-Icon-Grey.png" alt="" class="usericon user-img">
+                    <div class="user-txt">
+                        <h3 class="user-name">Phạm Thế Mạnh</h3>
+                        <p class="user-desc">@phamTheManh</p>
+                    </div>
+
                 </div>
-                
-                <div class="app_withslidebar">
-                    <div class="slide_box">
-                        <div class="slide_img active">
-                            <img class="active" src="/image/silde1.jpg" alt="">
-                        </div>
-                        <div class="slide_img">
-                            <div class="slide_show_left">
-                                <h2>Thành Quả Của Học Viên</h2>
-                                <p class="slide_show_left_element_p">Để đạt được kết quả tốt trong mọi việc ta cần xác định mục tiêu rõ ràng cho việc đó. Học lập trình cũng không là ngoại lệ. </p>
-                                <a class="slide_show_left_element_a" href="https://fullstack.edu.vn/blog/tong-hop-cac-san-pham-cua-hoc-vien-tai-f8.html">Xem Thành Quả</a>
-                            </div>
-                            <div>
-                                <img  src="/image/Banner_01_2.png" alt="">
-                            </div>
-                        </div>
-                        <div class="slide_img">
-                            <img  src="/image/slide3.jpg" alt="">
-                            
-                        </div>
-                
+                <div class="user-container">
+                    <div class="line-break"></div>
+                    <a href="#" class="user-container-row">Trang cá nhân</a>
+
+
+                    <div class="line-break"></div>
+                    <a href="#" class="user-container-row">
+                        Viết blog
+                    </a>
+                    <a href="#" class="user-container-row">
+                        Bài viết của tôi
+                    </a>
+                    <div class="line-break"></div>
+                    <a href="#" class="user-container-row">
+                        Bài viết đã lưu
+                    </a>
+                    <div class="line-break"></div>
+                    <a href="#" class="user-container-row">
+                        Cài đặt
+                    </a>
+                    <a href="login.html" class="user-container-row">Đăng xuất</a>
+                </div>
+            </div>
+            <!-- End UserBox -->
+        </div>
+        <main>
+            <div class="menu">
+                <nav>
+                    <div class="menu1 ">+</div>
+                    <div class="menu2 ">
+                        <img style="height: 19px;width: 22px;margin-top: 10px;" src="/image/house.png" alt="">
+                        <span>Home</span>
                     </div>
-                    <div class="controls"> 
-                        <button id="prevBtn"><i class="fa-solid fa-angle-left"></i></button>
-                        <button id="nextBtn"><i class="fa-solid fa-angle-right"></i></button>   
+                    <div class="menu2 ">
+                        <img style="height: 25px;width: 30px;margin-top: 10px;" src="/image/path.png" alt="">
+                        <span>Lộ trình</span>
                     </div>
-                    <div class="home_wrapper">
-                        <div class="home_wrapper_element">
-                            <div class="home_wrapper_heading">
-                                <h2>
-                                    <span class="home_wrapper_heading_element">
-                                        Khóa học Pro 
-                                        <span class="home_wrapper_heading_lable">
-                                            Mới
-                                        </span>
+                    <div class="menu2 ">
+                        <img style="height: 28px;width: 33px;margin-top: 10px;"
+                            src="/image/pngtree-light-bulb-icon-png-image_4231685.png" alt="">
+                        <span>Học</span>
+                    </div>
+                    <div class="menu2 ">
+                        <img style="height: 25px;width: 25px;margin-top: 10px;" src="/image/blog.png" alt="">
+                        <span>Blog</span>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="app_withslidebar">
+                <div class="slide_box">
+                    <div class="slide_img active">
+                        <img class="active" src="/image/silde1.jpg" alt="">
+                    </div>
+                    <div class="slide_img">
+                        <div class="slide_show_left">
+                            <h2>Thành Quả Của Học Viên</h2>
+                            <p class="slide_show_left_element_p">Để đạt được kết quả tốt trong mọi việc ta cần xác định
+                                mục tiêu rõ ràng cho việc đó. Học lập trình cũng không là ngoại lệ. </p>
+                            <a class="slide_show_left_element_a"
+                                href="https://fullstack.edu.vn/blog/tong-hop-cac-san-pham-cua-hoc-vien-tai-f8.html">Xem
+                                Thành Quả</a>
+                        </div>
+                        <div>
+                            <img src="/image/Banner_01_2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="slide_img">
+                        <img src="/image/slide3.jpg" alt="">
+
+                    </div>
+
+                </div>
+                <div class="controls">
+                    <button id="prevBtn"><i class="fa-solid fa-angle-left"></i></button>
+                    <button id="nextBtn"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+                <div class="home_wrapper">
+                    <div class="home_wrapper_element">
+                        <div class="home_wrapper_heading">
+                            <h2>
+                                <span class="home_wrapper_heading_element">
+                                    Khóa học Pro
+                                    <span class="home_wrapper_heading_lable">
+                                        Mới
                                     </span>
-                                </h2>
-                            </div>
-                            <div class="home_wrapper_body">
-                                <section class="index_home_wrapper_body">
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/15/62f13d2424a47.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                            <div class="crown_icon">
-                                                <img style="width: 20px;" src="./image/crown.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;"> HTML CSS Pro</a>
-                                            </h3>
-                                        </div>
-                                        <div>
-                                            <span class="oldprice">2.499.000đ</span>
-                                            <span class="newprice">1.299.000đ</span>
-                                        </div>
-                                    </section>
-                                    <section>
-                                        <div style="position: relative;">
-                                            <span class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/19/62f13cb607b4b.png');">
-                                                
-                                            </span>
-                                            <div class="crown_icon">
-                                                <img style="width: 20px;" src="./image/crown.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;"> Javascript Pro</a>
-                                            </h3>
-                                        </div>
-                                    </section>
-                                    <section>
-                                        <div style="position: relative;">
-                                            <span class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/20/62f13dded314e.png');">
-                                                
-                                            </span>
-                                            <div class="crown_icon">
-                                                <img style="width: 20px;" src="./image/crown.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;"> ReactJS Pro</a>
-                                            </h3>
-                                        </div>
-                                    </section>
-                                    <section>
-                                        <div style="position: relative;">
-                                            <span class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/15/62f13d2424a47.png');opacity: 0;
-                                            visibility: hidden;">
-                                            </span>
-                                        </div>
-                                    </section>
-                                </section>
-                            </div>
+                                </span>
+                            </h2>
                         </div>
-                        <div class="home_wrapper_element">
-                            <div>
-                                <p class="home_wrapper_element_p">
-                                    <strong>304.238+</strong>
-                                      người khác đã đọc
-                                </p>
-                            </div>
-                            <div   class="home_wrapper_heading">
-                                <h2 class="home_wrapper_heading_element">
-                                    Khóa học miễn phí
-                                </h2>
-                                <a href="" class="xemlotrinh">
-                                    Xem lộ trình >
-                                </a>
-                            </div>
-                            <div class="home_wrapper_body">
-                                <section class="index_home_wrapper_body">
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/7.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                           
+                        <div class="home_wrapper_body">
+                            <section class="index_home_wrapper_body">
+                                <section class="">
+                                    <div style="position: relative;">
+                                        <a class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/15/62f13d2424a47.png');">
+                                            <div class="thumb_element">
+                                                <button>
+                                                    Xem khóa học
+                                                </button>
+                                            </div>
+                                        </a>
+                                        <div class="crown_icon">
+                                            <img style="width: 20px;" src="./image/crown.png" alt="">
                                         </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Kiến Thức Nhập Môn IT</a>
-                                            </h3>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-users" style="color: #808999;"></i>
-                                            <span class="access" >103.689</span>
-                                            
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/21/63e1bcbaed1dd.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                          
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Lập trình C++ cơ bản, nâng cao</a>
-                                            </h3>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-users" style="color: #808999;"></i>
-                                            <span class="access" >6.624</span>
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/2.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                           
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">HTML CSS từ Zero đến Hero </a>
-                                            </h3>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-users" style="color: #808999;"></i>
-                                            <span class="access" >156.806</span>
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/3.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                           
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Responsive Với Grid System</a>
-                                            </h3>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-users" style="color: #808999;"></i>
-                                            <span class="access" >35.521</span>
-                                        </div>
-                                    </section>
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 600;"> HTML CSS Pro</a>
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <span class="oldprice">2.499.000đ</span>
+                                        <span class="newprice">1.299.000đ</span>
+                                    </div>
                                 </section>
-                                <section class="index_home_wrapper_body">
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/1.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                           
+                                <section>
+                                    <div style="position: relative;">
+                                        <span class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/19/62f13cb607b4b.png');">
+
+                                        </span>
+                                        <div class="crown_icon">
+                                            <img style="width: 20px;" src="./image/crown.png" alt="">
                                         </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Lập Trình Javascript Cơ Bản</a>
-                                            </h3>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-users" style="color: #808999;"></i>
-                                            <span class="access" >103.587</span>
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/12.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                           
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Lập Trình Javascript Nâng Cao</a>
-                                            </h3>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-users" style="color: #808999;"></i>
-                                            <span class="access" >27.478</span>
-                                        </div>
-                                    </section>
-                                    <section class="test">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/14/624faac11d109.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                           
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Làm việc với Terminal & Ubuntu</a>
-                                            </h3>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-users" style="color: #808999;"></i>
-                                            <span class="access" >11.568</span>
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/13/13.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                           
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Xây Dựng Website  với ReactJS</a>
-                                            </h3>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-users" style="color: #808999;"></i>
-                                            <span class="access" >44.983</span>
-                                        </div>
-                                    </section>
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 600;"> Javascript Pro</a>
+                                        </h3>
+                                    </div>
                                 </section>
-                                <section class="index_home_wrapper_body">
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/6.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                           
+                                <section>
+                                    <div style="position: relative;">
+                                        <span class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/20/62f13dded314e.png');">
+
+                                        </span>
+                                        <div class="crown_icon">
+                                            <img style="width: 20px;" src="./image/crown.png" alt="">
                                         </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Node & ExpressJS</a>
-                                            </h3>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-users" style="color: #808999;"></i>
-                                            <span class="access" >30.847</span>
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/4/61a9e9e701506.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                           
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 550;">App "Đừng Chạm Tay Lên Mặt"</a>
-                                            </h3>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-users" style="color: #808999;"></i>
-                                            <span class="access" >7.297</span>
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <span class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/15/62f13d2424a47.png');opacity: 0;
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 600;"> ReactJS Pro</a>
+                                        </h3>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div style="position: relative;">
+                                        <span class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/15/62f13d2424a47.png');opacity: 0;
                                             visibility: hidden;">
-                                            </span>
-                                            
-                                        </div>
-                                     
-                                       
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <span class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/15/62f13d2424a47.png');opacity: 0;
-                                            visibility: hidden;">
-                                          </span>  
-                                        </div>        
-                                    </section>
+                                        </span>
+                                    </div>
                                 </section>
-                            </div>
+                            </section>
                         </div>
-                        <div class="home_wrapper_element">
-                                <div   class="home_wrapper_heading">
-                                    <h2 class="home_wrapper_heading_element">
-                                        Bài viết nổi bật
-                                    </h2>
-                                    <a href="" class="xemlotrinh">
-                                        Xem tất cả >
+                    </div>
+                    <div class="home_wrapper_element">
+                        <div>
+                            <p class="home_wrapper_element_p">
+                                <strong>304.238+</strong>
+                                người khác đã đọc
+                            </p>
+                        </div>
+                        <div class="home_wrapper_heading">
+                            <h2 class="home_wrapper_heading_element">
+                                Khóa học miễn phí
+                            </h2>
+                            <a href="" class="xemlotrinh">
+                                Xem lộ trình >
+                            </a>
+                        </div>
+                        <div class="home_wrapper_body">
+                            <section class="index_home_wrapper_body">
+                                <section class="">
+                                    <div style="position: relative;">
+                                        <a class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/7.png');">
+                                            <div class="thumb_element">
+                                                <button>
+                                                    Xem khóa học
+                                                </button>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 600;">Kiến Thức Nhập Môn
+                                                IT</a>
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-users" style="color: #808999;"></i>
+                                        <span class="access">103.689</span>
+
+                                    </div>
+                                </section>
+                                <section class="">
+                                    <div style="position: relative;">
+                                        <a class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/21/63e1bcbaed1dd.png');">
+                                            <div class="thumb_element">
+                                                <button>
+                                                    Xem khóa học
+                                                </button>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 600;">Lập trình C++ cơ bản,
+                                                nâng cao</a>
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-users" style="color: #808999;"></i>
+                                        <span class="access">6.624</span>
+                                    </div>
+                                </section>
+                                <section class="">
+                                    <div style="position: relative;">
+                                        <a class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/2.png');">
+                                            <div class="thumb_element">
+                                                <button>
+                                                    Xem khóa học
+                                                </button>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 600;">HTML CSS từ Zero đến
+                                                Hero </a>
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-users" style="color: #808999;"></i>
+                                        <span class="access">156.806</span>
+                                    </div>
+                                </section>
+                                <section class="">
+                                    <div style="position: relative;">
+                                        <a class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/3.png');">
+                                            <div class="thumb_element">
+                                                <button>
+                                                    Xem khóa học
+                                                </button>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 600;">Responsive Với Grid
+                                                System</a>
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-users" style="color: #808999;"></i>
+                                        <span class="access">35.521</span>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="index_home_wrapper_body">
+                                <section class="">
+                                    <div style="position: relative;">
+                                        <a class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/1.png');">
+                                            <div class="thumb_element">
+                                                <button>
+                                                    Xem khóa học
+                                                </button>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 600;">Lập Trình Javascript Cơ
+                                                Bản</a>
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-users" style="color: #808999;"></i>
+                                        <span class="access">103.587</span>
+                                    </div>
+                                </section>
+                                <section class="">
+                                    <div style="position: relative;">
+                                        <a class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/12.png');">
+                                            <div class="thumb_element">
+                                                <button>
+                                                    Xem khóa học
+                                                </button>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 600;">Lập Trình Javascript
+                                                Nâng Cao</a>
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-users" style="color: #808999;"></i>
+                                        <span class="access">27.478</span>
+                                    </div>
+                                </section>
+                                <section class="test">
+                                    <div style="position: relative;">
+                                        <a class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/14/624faac11d109.png');">
+                                            <div class="thumb_element">
+                                                <button>
+                                                    Xem khóa học
+                                                </button>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 600;">Làm việc với Terminal &
+                                                Ubuntu</a>
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-users" style="color: #808999;"></i>
+                                        <span class="access">11.568</span>
+                                    </div>
+                                </section>
+                                <section class="">
+                                    <div style="position: relative;">
+                                        <a class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/13/13.png');">
+                                            <div class="thumb_element">
+                                                <button>
+                                                    Xem khóa học
+                                                </button>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 600;">Xây Dựng Website với
+                                                ReactJS</a>
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-users" style="color: #808999;"></i>
+                                        <span class="access">44.983</span>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="index_home_wrapper_body">
+                                <section class="">
+                                    <div style="position: relative;">
+                                        <a class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/6.png');">
+                                            <div class="thumb_element">
+                                                <button>
+                                                    Xem khóa học
+                                                </button>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 600;">Node & ExpressJS</a>
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-users" style="color: #808999;"></i>
+                                        <span class="access">30.847</span>
+                                    </div>
+                                </section>
+                                <section class="">
+                                    <div style="position: relative;">
+                                        <a class="thumb" href=""
+                                            style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/4/61a9e9e701506.png');">
+                                            <div class="thumb_element">
+                                                <button>
+                                                    Xem khóa học
+                                                </button>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div>
+                                        <h3 style="padding: 10px 0 10px;">
+                                            <a href="" style="font-size: 15px;font-weight: 550;">App "Đừng Chạm Tay Lên
+                                                Mặt"</a>
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-users" style="color: #808999;"></i>
+                                        <span class="access">7.297</span>
+                                    </div>
+                                </section>
+                                <section class="">
+                                    <div style="position: relative;">
+                                        <span class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/15/62f13d2424a47.png');opacity: 0;
+                                            visibility: hidden;">
+                                        </span>
+
+                                    </div>
+
+
+                                </section>
+                                <section class="">
+                                    <div style="position: relative;">
+                                        <span class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/courses/15/62f13d2424a47.png');opacity: 0;
+                                            visibility: hidden;">
+                                        </span>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="home_wrapper_element">
+                        <div class="home_wrapper_heading">
+                            <h2 class="home_wrapper_heading_element">
+                                Bài viết nổi bật
+                            </h2>
+                            <a href="" class="xemlotrinh">
+                                Xem tất cả >
+                            </a>
+                        </div>
+                        <section class="index_home_wrapper_body">
+                            <section class="">
+                                <div style="position: relative;">
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/65/6139fe28a9844.png');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Tổng hợp các sản phẩm của
+                                            học viê...</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item">
+                                    <img class="" src="./image/623d4b2d95cec.png" alt="">
+                                    <span>
+                                        Sơn Đặng
+                                    </span>
+                                    <i class="fa-solid fa-circle-check" style="color: #1B74E4;"></i>
+                                    <span>
+                                        .
+                                    </span>
+                                    <p class="access">
+                                        6 phút đọc
+                                    </p>
+                                </div>
+                            </section>
+                            <section class="">
+                                <div style="position: relative;">
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/279/6153f692d366e.jpg');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">[Phần 1] Tạo dự án ReactJS
+                                            với...</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item">
+                                    <img class="" src="./image/623d4b2d95cec.png" alt="">
+                                    <span>
+                                        Sơn Đặng
+                                    </span>
+                                    <i class="fa-solid fa-circle-check" style="color: #1B74E4;"></i>
+                                    <span>
+                                        .
+                                    </span>
+                                    <p class="access">
+                                        12 phút đọc
+                                    </p>
+                                </div>
+                            </section>
+                            <section class="">
+                                <div style="position: relative;">
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/51/6139c6453456e.png');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Kí sự ngày thứ 25 học ở
+                                            F8</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item">
+                                    <img class="" src="./image/sonson.jpg" alt="">
+                                    <span>
+                                        Sơn Sơn
+                                    </span>
+
+                                    <span>
+                                        .
+                                    </span>
+                                    <p class="access">
+                                        1 phút đọc
+                                    </p>
+                                </div>
+                            </section>
+                            <section class="">
+                                <div style="position: relative;">
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/677/615436b218d0a.png');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Cách đưa code lên GitHub và
+                                            tạo...</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item">
+                                    <img class=""
+                                        src="https://files.fullstack.edu.vn/f8-prod/user_avatars/18159/63465328ecec4.jpg"
+                                        alt="">
+                                    <span>
+                                        Võ Minh Kha
+                                    </span>
+
+                                    <span>
+                                        .
+                                    </span>
+                                    <p class="access">
+                                        4 phút đọc
+                                    </p>
+                                </div>
+                            </section>
+                        </section>
+                        <section class="index_home_wrapper_body">
+                            <section class="">
+                                <div style="position: relative;">
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/107/613a1f3685814.png');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Các nguồn tài nguyên hữu
+                                            ích cho 1...</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item">
+                                    <img class=""
+                                        src="https://graph.facebook.com/547825429409669/picture?width=400&height=400"
+                                        alt="">
+                                    <span>
+                                        Vương Dương
+                                    </span>
+
+                                    <span>
+                                        .
+                                    </span>
+                                    <p class="access">
+                                        2 phút đọc
+                                    </p>
+                                </div>
+                            </section>
+                            <section class="">
+                                <div style="position: relative;">
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/1671/61b6368983c16.jpg');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Thời gian và động lực</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item">
+                                    <img class=""
+                                        src="https://files.fullstack.edu.vn/f8-prod/user_avatars/9143/6263caafdf588.jpg"
+                                        alt="">
+                                    <span>
+                                        Đông Ngô
+                                    </span>
+
+                                    <span>
+                                        .
+                                    </span>
+                                    <p class="access">
+                                        6 phút đọc
+                                    </p>
+                                </div>
+                            </section>
+                            <section class="">
+                                <div style="position: relative;">
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/273/614043e523ad9.png');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Tổng hợp tài liệu tự học
+                                            tiếng anh c... </a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item">
+                                    <img class=""
+                                        src="https://files.fullstack.edu.vn/f8-prod/user_avatars/74901/626aa252cdb22.jpg"
+                                        alt="">
+                                    <span>
+                                        Lê Thành Trung
+                                    </span>
+
+                                    <span>
+                                        .
+                                    </span>
+                                    <p class="access">
+                                        8 phút đọc
+                                    </p>
+                                </div>
+                            </section>
+                            <section class="">
+                                <div style="position: relative;">
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/791/615de64de7e8f.jpg');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Học như thế nào là phù hợp
+                                            ?</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item">
+                                    <img class=""
+                                        src="https://fullstack.edu.vn/static/media/fallback-avatar.155cdb2376c5d99ea151.jpg"
+                                        alt="">
+                                    <span>
+                                        Tiên Phạm Ngọc
+                                    </span>
+
+                                    <span>
+                                        .
+                                    </span>
+                                    <p class="access">
+                                        4 phút đọc
+                                    </p>
+                                </div>
+                            </section>
+                        </section>
+                    </div>
+                    <div class="home_wrapper_element">
+                        <div class="home_wrapper_heading">
+                            <h2 class="home_wrapper_heading_element">
+                                Videos nổi bật
+                            </h2>
+                            <a href="" class="xemlotrinh">
+                                Xem tất cả >
+                            </a>
+                        </div>
+                        <section class="index_home_wrapper_body">
+                            <section class="">
+                                <div style="position: relative;">
+                                    <div class="play_button">
+                                        <div class="play_button_left">
+                                            <span>
+                                                <i class="fa-solid fa-play"></i>
+                                            </span>
+                                        </div>
+                                        <div class="play_button_right">
+                                            34:51
+                                        </div>
+                                    </div>
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://i.ytimg.com/vi/YH-E4Y3EaT4/maxresdefault.jpg');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+
                                     </a>
                                 </div>
-                                <section class="index_home_wrapper_body">
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/65/6139fe28a9844.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                          
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Tổng hợp các sản phẩm của học viê...</a>
-                                            </h3>
-                                        </div>
-                                        <div class="thumb_element_item">
-                                            <img class="" src="./image/623d4b2d95cec.png" alt="">
-                                            <span>
-                                                Sơn Đặng
-                                            </span>
-                                            <i class="fa-solid fa-circle-check" style="color: #1B74E4;"></i>
-                                            <span >
-                                                .
-                                            </span>
-                                            <p class="access">
-                                                6 phút đọc
-                                            </p>
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/279/6153f692d366e.jpg');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                            
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">[Phần 1] Tạo dự án ReactJS với...</a>
-                                            </h3>
-                                        </div>
-                                        <div class="thumb_element_item">
-                                            <img class="" src="./image/623d4b2d95cec.png" alt="">
-                                            <span>
-                                                Sơn Đặng
-                                            </span>
-                                            <i class="fa-solid fa-circle-check" style="color: #1B74E4;"></i>
-                                            <span >
-                                                .
-                                            </span>
-                                            <p class="access">
-                                                12 phút đọc
-                                            </p>
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/51/6139c6453456e.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                        
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Kí sự ngày thứ 25 học ở F8</a>
-                                            </h3>
-                                        </div>
-                                        <div class="thumb_element_item">
-                                            <img class="" src="./image/sonson.jpg" alt="">
-                                            <span>
-                                                Sơn Sơn
-                                            </span>
-                                        
-                                            <span >
-                                                .
-                                            </span>
-                                            <p class="access">
-                                                1 phút đọc
-                                            </p>
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/677/615436b218d0a.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                           
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Cách đưa code lên GitHub và tạo...</a>
-                                            </h3>
-                                        </div>
-                                        <div class="thumb_element_item">
-                                            <img class="" src="https://files.fullstack.edu.vn/f8-prod/user_avatars/18159/63465328ecec4.jpg" alt="">
-                                            <span>
-                                                Võ Minh Kha
-                                            </span>
-                                      
-                                            <span >
-                                                .
-                                            </span>
-                                            <p class="access">
-                                                4 phút đọc
-                                            </p>
-                                        </div>
-                                    </section>
-                                </section>
-                                <section class="index_home_wrapper_body">
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/107/613a1f3685814.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                          
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Các nguồn tài nguyên hữu ích cho 1...</a>
-                                            </h3>
-                                        </div>
-                                        <div class="thumb_element_item">
-                                            <img class="" src="https://graph.facebook.com/547825429409669/picture?width=400&height=400" alt="">
-                                            <span>
-                                                Vương Dương
-                                            </span>
-                                    
-                                            <span >
-                                                .
-                                            </span>
-                                            <p class="access">
-                                                2 phút đọc
-                                            </p>
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/1671/61b6368983c16.jpg');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                            
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Thời gian và động lực</a>
-                                            </h3>
-                                        </div>
-                                        <div class="thumb_element_item">
-                                            <img class="" src="https://files.fullstack.edu.vn/f8-prod/user_avatars/9143/6263caafdf588.jpg" alt="">
-                                            <span>
-                                                Đông Ngô
-                                            </span>
-                                        
-                                            <span >
-                                                .
-                                            </span>
-                                            <p class="access">
-                                                6 phút đọc
-                                            </p>
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/273/614043e523ad9.png');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                        
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Tổng hợp tài liệu tự học tiếng anh c... </a>
-                                            </h3>
-                                        </div>
-                                        <div class="thumb_element_item">
-                                            <img class="" src="https://files.fullstack.edu.vn/f8-prod/user_avatars/74901/626aa252cdb22.jpg" alt="">
-                                            <span>
-                                                Lê Thành Trung
-                                            </span>
-                                     
-                                            <span >
-                                                .
-                                            </span>
-                                            <p class="access">
-                                                8 phút đọc
-                                            </p>
-                                        </div>
-                                    </section>
-                                    <section class="">
-                                        <div style="position: relative;">
-                                            <a class="thumb" href="" style="background-image: url('https://files.fullstack.edu.vn/f8-prod/blog_posts/791/615de64de7e8f.jpg');">
-                                                <div class="thumb_element">
-                                                    <button > 
-                                                        Xem khóa học
-                                                    </button>
-                                                </div>
-                                            </a>
-                                           
-                                        </div>
-                                        <div>
-                                            <h3 style="padding: 10px 0 10px;">
-                                                <a href="" style="font-size: 15px;font-weight: 600;">Học như thế nào là phù hợp ?</a>
-                                            </h3>
-                                        </div>
-                                        <div class="thumb_element_item">
-                                            <img class="" src="https://fullstack.edu.vn/static/media/fallback-avatar.155cdb2376c5d99ea151.jpg" alt="">
-                                            <span>
-                                                Tiên Phạm Ngọc
-                                            </span>
-                                       
-                                            <span >
-                                                .
-                                            </span>
-                                            <p class="access">
-                                                4 phút đọc
-                                            </p>
-                                        </div>
-                                    </section>
-                                </section>
-                        </div>
-                        <div class="home_wrapper_element">
-                            <div   class="home_wrapper_heading">
-                                <h2 class="home_wrapper_heading_element">
-                                    Videos nổi bật
-                                </h2>
-                                <a href="" class="xemlotrinh">
-                                    Xem tất cả >
-                                </a>
-                            </div>
-                            <section class="index_home_wrapper_body">
-                                <section class="">
-                                    <div style="position: relative;">
-                                        <div class="play_button">
-                                            <div class="play_button_left">
-                                                 <span >
-                                                    <i class="fa-solid fa-play"></i>
-                                                 </span>
-                                            </div>
-                                            <div class="play_button_right">
-                                               34:51
-                                            </div>
-                                        </div>
-                                        <a class="thumb" href="" style="background-image: url('https://i.ytimg.com/vi/YH-E4Y3EaT4/maxresdefault.jpg');">
-                                            <div class="thumb_element">
-                                                <button > 
-                                                    Xem khóa học
-                                                </button>
-                                            </div>
-                                       
-                                        </a>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Sinh Viên IT đi thực tập
+                                            tại doanh...</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item1">
+                                    <div>
+                                        <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
+                                        <span class="access">222.910</span>
                                     </div>
                                     <div>
-                                        <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Sinh Viên IT đi thực tập tại doanh...</a>
-                                        </h3>
-                                    </div>
-                                    <div class="thumb_element_item1">
-                                        <div>
-                                            <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                            <span class="access">222.910</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                            <span class="access">5.690</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                            <span class="access">229</span>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="">
-                                    <div style="position: relative;">
-                                        <div class="play_button">
-                                            <div class="play_button_left">
-                                                 <span >
-                                                    <i class="fa-solid fa-play"></i>
-                                                 </span>
-                                            </div>
-                                            <div class="play_button_right">
-                                               25:10
-                                            </div>
-                                        </div>
-                                        <a class="thumb" href="" style="background-image: url('https://i.ytimg.com/vi/sgq7BH6WxL8/maxresdefault.jpg');">
-                                            <div class="thumb_element">
-                                                <button > 
-                                                    Xem khóa học
-                                                </button>
-                                            </div>
-                                        </a>
-                                        
+                                        <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
+                                        <span class="access">5.690</span>
                                     </div>
                                     <div>
-                                        <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">"Code Thiếu Nhi Battle" Tranh Giành...</a>
-                                        </h3>
+                                        <i class="fa-solid fa-comment" style="color: #636e83;"></i>
+                                        <span class="access">229</span>
                                     </div>
-                                    <div class="thumb_element_item1">
-                                        <div>
-                                            <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                            <span class="access">263.426</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                            <span class="access">5.526</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                            <span class="access">188</span>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="">
-                                    <div style="position: relative;">
-                                        <div class="play_button">
-                                            <div class="play_button_left">
-                                                 <span >
-                                                    <i class="fa-solid fa-play"></i>
-                                                 </span>
-                                            </div>
-                                            <div class="play_button_right">
-                                               24:06
-                                            </div>
-                                        </div>
-                                        <a class="thumb" href="" style="background-image: url('https://i.ytimg.com/vi/DpvYHLUiZpc/maxresdefault.jpg');">
-                                            <div class="thumb_element">
-                                                <button > 
-                                                    Xem khóa học
-                                                </button>
-                                            </div>
-                                        </a>
-                                    
-                                    </div>
-                                    <div>
-                                        <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Phương pháp học lập trình của Admi...</a>
-                                        </h3>
-                                    </div>
-                                    <div class="thumb_element_item1">
-                                        <div>
-                                            <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                            <span class="access">107.736</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                            <span class="access">5.453</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                            <span class="access">325</span>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="">
-                                    <div style="position: relative;">
-                                        <div class="play_button">
-                                            <div class="play_button_left">
-                                                 <span >
-                                                    <i class="fa-solid fa-play"></i>
-                                                 </span>
-                                            </div>
-                                            <div class="play_button_right">
-                                               03:15
-                                            </div>
-                                        </div>
-                                        <a class="thumb" href="" style="background-image: url('https://i.ytimg.com/vi/R6plN3FvzFY/maxresdefault.jpg');">
-                                            <div class="thumb_element">
-                                                <button > 
-                                                    Xem khóa học
-                                                </button>
-                                            </div>
-                                        </a>
-                                       
-                                    </div>
-                                    <div>
-                                        <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Bạn sẽ làm được gì sau khóa học?</a>
-                                        </h3>
-                                    </div>
-                                    <div class="thumb_element_item1">
-                                        <div>
-                                            <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                            <span class="access">655.061</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                            <span class="access">4.057</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                            <span class="access">120</span>
-                                        </div>
-                                    </div>
-                                </section>
+                                </div>
                             </section>
-                            <section class="index_home_wrapper_body">
-                                <section class="">
-                                    <div style="position: relative;">
-                                        <div class="play_button">
-                                            <div class="play_button_left">
-                                                 <span >
-                                                    <i class="fa-solid fa-play"></i>
-                                                 </span>
-                                            </div>
-                                            <div class="play_button_right">
-                                               25:40
-                                            </div>
+                            <section class="">
+                                <div style="position: relative;">
+                                    <div class="play_button">
+                                        <div class="play_button_left">
+                                            <span>
+                                                <i class="fa-solid fa-play"></i>
+                                            </span>
                                         </div>
-                                        <a class="thumb" href="" style="background-image: url('https://i.ytimg.com/vi/oF7isq9IjZM/maxresdefault.jpg');">
-                                            <div class="thumb_element">
-                                                <button > 
-                                                    Xem khóa học
-                                                </button>
-                                            </div>
-                                       
-                                        </a>
+                                        <div class="play_button_right">
+                                            25:10
+                                        </div>
+                                    </div>
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://i.ytimg.com/vi/sgq7BH6WxL8/maxresdefault.jpg');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">"Code Thiếu Nhi Battle"
+                                            Tranh Giành...</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item1">
+                                    <div>
+                                        <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
+                                        <span class="access">263.426</span>
                                     </div>
                                     <div>
-                                        <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Làm sao để có thu nhập cao và đi xa</a>
-                                        </h3>
-                                    </div>
-                                    <div class="thumb_element_item1">
-                                        <div>
-                                            <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                            <span class="access">75.060</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                            <span class="access">3.249</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                            <span class="access">230</span>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="">
-                                    <div style="position: relative;">
-                                        <div class="play_button">
-                                            <div class="play_button_left">
-                                                 <span >
-                                                    <i class="fa-solid fa-play"></i>
-                                                 </span>
-                                            </div>
-                                            <div class="play_button_right">
-                                               07:53
-                                            </div>
-                                        </div>
-                                        <a class="thumb" href="" style="background-image: url('https://i.ytimg.com/vi/0SJE9dYdpps/maxresdefault.jpg');">
-                                            <div class="thumb_element">
-                                                <button > 
-                                                    Xem khóa học
-                                                </button>
-                                            </div>
-                                        </a>
-                                        
+                                        <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
+                                        <span class="access">5.526</span>
                                     </div>
                                     <div>
-                                        <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Javascript có thể làm được gì? Giới...</a>
-                                        </h3>
+                                        <i class="fa-solid fa-comment" style="color: #636e83;"></i>
+                                        <span class="access">188</span>
                                     </div>
-                                    <div class="thumb_element_item1">
-                                        <div>
-                                            <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                            <span class="access">556.712</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                            <span class="access">3.140</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                            <span class="access">114</span>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="">
-                                    <div style="position: relative;">
-                                        <div class="play_button">
-                                            <div class="play_button_left">
-                                                 <span >
-                                                    <i class="fa-solid fa-play"></i>
-                                                 </span>
-                                            </div>
-                                            <div class="play_button_right">
-                                               10:41
-                                            </div>
-                                        </div>
-                                        <a class="thumb" href="" style="background-image: url('https://i.ytimg.com/vi/x0fSBAgBrOQ/maxresdefault.jpg');">
-                                            <div class="thumb_element">
-                                                <button > 
-                                                    Xem khóa học
-                                                </button>
-                                            </div>
-                                        </a>
-                                    
-                                    </div>
-                                    <div>
-                                        <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">ReactJS là gì? Tại sao lại học ?</a>
-                                        </h3>
-                                    </div>
-                                    <div class="thumb_element_item1">
-                                        <div>
-                                            <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                            <span class="access">276.388</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                            <span class="access">2.908</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                            <span class="access">350</span>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="">
-                                    <div style="position: relative;">
-                                        <div class="play_button">
-                                            <div class="play_button_left">
-                                                 <span >
-                                                    <i class="fa-solid fa-play"></i>
-                                                 </span>
-                                            </div>
-                                            <div class="play_button_right">
-                                               35:04
-                                            </div>
-                                        </div>
-                                        <a class="thumb" href="" style="background-image: url('https://i.ytimg.com/vi/G19jZzK5FWI/maxresdefault.jpg');">
-                                            <div class="thumb_element">
-                                                <button > 
-                                                    Xem khóa học
-                                                </button>
-                                            </div>
-                                        </a>
-                                       
-                                    </div>
-                                    <div>
-                                        <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Học Flexbox qua ví dụ</a>
-                                        </h3>
-                                    </div>
-                                    <div class="thumb_element_item1">
-                                        <div>
-                                            <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                            <span class="access">166.042</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                            <span class="access">2.497</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                            <span class="access">175</span>
-                                        </div>
-                                    </div>
-                                </section>
+                                </div>
                             </section>
-                        </div>
+                            <section class="">
+                                <div style="position: relative;">
+                                    <div class="play_button">
+                                        <div class="play_button_left">
+                                            <span>
+                                                <i class="fa-solid fa-play"></i>
+                                            </span>
+                                        </div>
+                                        <div class="play_button_right">
+                                            24:06
+                                        </div>
+                                    </div>
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://i.ytimg.com/vi/DpvYHLUiZpc/maxresdefault.jpg');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Phương pháp học lập trình
+                                            của Admi...</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item1">
+                                    <div>
+                                        <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
+                                        <span class="access">107.736</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
+                                        <span class="access">5.453</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-comment" style="color: #636e83;"></i>
+                                        <span class="access">325</span>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="">
+                                <div style="position: relative;">
+                                    <div class="play_button">
+                                        <div class="play_button_left">
+                                            <span>
+                                                <i class="fa-solid fa-play"></i>
+                                            </span>
+                                        </div>
+                                        <div class="play_button_right">
+                                            03:15
+                                        </div>
+                                    </div>
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://i.ytimg.com/vi/R6plN3FvzFY/maxresdefault.jpg');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Bạn sẽ làm được gì sau khóa
+                                            học?</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item1">
+                                    <div>
+                                        <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
+                                        <span class="access">655.061</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
+                                        <span class="access">4.057</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-comment" style="color: #636e83;"></i>
+                                        <span class="access">120</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
+                        <section class="index_home_wrapper_body">
+                            <section class="">
+                                <div style="position: relative;">
+                                    <div class="play_button">
+                                        <div class="play_button_left">
+                                            <span>
+                                                <i class="fa-solid fa-play"></i>
+                                            </span>
+                                        </div>
+                                        <div class="play_button_right">
+                                            25:40
+                                        </div>
+                                    </div>
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://i.ytimg.com/vi/oF7isq9IjZM/maxresdefault.jpg');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+
+                                    </a>
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Làm sao để có thu nhập cao
+                                            và đi xa</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item1">
+                                    <div>
+                                        <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
+                                        <span class="access">75.060</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
+                                        <span class="access">3.249</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-comment" style="color: #636e83;"></i>
+                                        <span class="access">230</span>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="">
+                                <div style="position: relative;">
+                                    <div class="play_button">
+                                        <div class="play_button_left">
+                                            <span>
+                                                <i class="fa-solid fa-play"></i>
+                                            </span>
+                                        </div>
+                                        <div class="play_button_right">
+                                            07:53
+                                        </div>
+                                    </div>
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://i.ytimg.com/vi/0SJE9dYdpps/maxresdefault.jpg');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Javascript có thể làm được
+                                            gì? Giới...</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item1">
+                                    <div>
+                                        <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
+                                        <span class="access">556.712</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
+                                        <span class="access">3.140</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-comment" style="color: #636e83;"></i>
+                                        <span class="access">114</span>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="">
+                                <div style="position: relative;">
+                                    <div class="play_button">
+                                        <div class="play_button_left">
+                                            <span>
+                                                <i class="fa-solid fa-play"></i>
+                                            </span>
+                                        </div>
+                                        <div class="play_button_right">
+                                            10:41
+                                        </div>
+                                    </div>
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://i.ytimg.com/vi/x0fSBAgBrOQ/maxresdefault.jpg');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">ReactJS là gì? Tại sao lại
+                                            học ?</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item1">
+                                    <div>
+                                        <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
+                                        <span class="access">276.388</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
+                                        <span class="access">2.908</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-comment" style="color: #636e83;"></i>
+                                        <span class="access">350</span>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="">
+                                <div style="position: relative;">
+                                    <div class="play_button">
+                                        <div class="play_button_left">
+                                            <span>
+                                                <i class="fa-solid fa-play"></i>
+                                            </span>
+                                        </div>
+                                        <div class="play_button_right">
+                                            35:04
+                                        </div>
+                                    </div>
+                                    <a class="thumb" href=""
+                                        style="background-image: url('https://i.ytimg.com/vi/G19jZzK5FWI/maxresdefault.jpg');">
+                                        <div class="thumb_element">
+                                            <button>
+                                                Xem khóa học
+                                            </button>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <h3 style="padding: 10px 0 10px;">
+                                        <a href="" style="font-size: 15px;font-weight: 600;">Học Flexbox qua ví dụ</a>
+                                    </h3>
+                                </div>
+                                <div class="thumb_element_item1">
+                                    <div>
+                                        <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
+                                        <span class="access">166.042</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
+                                        <span class="access">2.497</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-comment" style="color: #636e83;"></i>
+                                        <span class="access">175</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
                     </div>
                 </div>
+            </div>
 
-                <script src="/web.js"></script>
-                <!-- <div id="test"></div> -->
+            <script src="/web.js"></script>
+            <!-- <div id="test"></div> -->
 
         </main>
     </div>
     <footer>
         <div class="footer-container">
             <div class="footer-item" style="width: 25%;">
-                <div class = "footer-item-header">
-                    <img src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png" alt="f8" style="height: 38px;width:38px;border-radius:8px">
-                    <span class = "footer-item-title">Học Lập Trình Để Đi Làm</span>
+                <div class="footer-item-header">
+                    <img src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png" alt="f8"
+                        style="height: 38px;width:38px;border-radius:8px">
+                    <span class="footer-item-title">Học Lập Trình Để Đi Làm</span>
                 </div>
                 <div class="footer-item-contact-list">
                     Điện thoại:
@@ -1096,16 +1166,17 @@
                 </ul>
             </div>
             <div class="footer-item" style="width: 25%;">
-                <div class = "footer-item-header">
-                    
-                    <span class = "footer-item-title">CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8</span>
+                <div class="footer-item-header">
+
+                    <span class="footer-item-title">CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8</span>
                 </div>
                 <div class="footer-item-contact-list">
                     Mã số thuế: 010992xxxx
                     <br>
                     Ngày thành lập: 10/04/2023
                     <br>
-                    Lĩnh vực: Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá trị cho cộng đồng.
+                    Lĩnh vực: Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá trị
+                    cho cộng đồng.
                 </div>
             </div>
         </div>
@@ -1113,10 +1184,12 @@
             <div class="footer-copyright">&#169; 2022 - 2023 F8. Vjp Pro mãi đỉnh</div>
             <div class="footer-social">
                 <img src="image/youtube.png" alt="" class="footer-social-icon">
-                <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/128/facebook-icon.png"  class="footer-social-icon">
-                <img src="image/tiktok.png"  class="footer-social-icon">
+                <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/128/facebook-icon.png"
+                    class="footer-social-icon">
+                <img src="image/tiktok.png" class="footer-social-icon">
             </div>
         </div>
     </footer>
 </body>
+
 </html>
