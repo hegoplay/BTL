@@ -20,23 +20,31 @@ a{
 .header{
     width: 100%;
     border-bottom: 1px solid black;
-    position: sticky;
+    position: fixed;
     height: 65px; 
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    z-index: 2;
 }
-.header_item{
+.header_item1{
     padding-left: 20px;
     padding-right: 20px ;
+    width: 420px;
     align-items: center;
+    border-radius: 30px;
+    border: 1px solid #E8E8E8;
+    
 }
-.header_item input{
+.header_item1 input{
     height: 40px;
     align-items: center;
     width: 420px;
-    border-radius: 30px;
-    border: 1px solid #E8E8E8;
+    border: none;
+}
+.header_item1 input:hover, input:focus, input:visited{
+    outline: none;
+    
 }
 
 .header_item a{
@@ -48,6 +56,9 @@ a{
     text-decoration: none;
     color: #808990;
 }
+.header_item{
+    align-items: center;
+}
 .image_small{
     height: 40px;
     border-radius: 10px;
@@ -55,6 +66,10 @@ a{
 .image_right{
     height: 20px;
     margin-right: 22px;
+}
+.search_icon i{
+    width: 30px;
+    height: 30px;
 }
 .right_item{
     background-color: transparent;
@@ -75,13 +90,14 @@ a{
 .menu{
     width: 100px;
     display: flex;
-    z-index: 2;
+    z-index: 1;
     height: 100%;
-    position: sticky;
+    position: fixed;
     background-color: white;
     justify-content: center;
     border-right: #020c13 1px solid;
-    padding-right: 0;
+    margin-top: 65px;
+    margin-left: 15px;
 }
 .menu .menu1{
     border-radius: 50%;
@@ -97,6 +113,9 @@ a{
     display: flex;
     cursor: pointer;
 }
+/* .menu .main{
+    background-color: #E8EBED;
+} */
 .menu .menu2{
     display: flex;
     flex-direction: column;
@@ -106,6 +125,7 @@ a{
     justify-content: center;
     cursor: pointer;
     border-radius: 20px;
+    
 }
 .menu2:hover{
     background-color: #E8EBED;
@@ -113,4 +133,13 @@ a{
 .main{
    
      margin-left: 83px; 
+}
+.menu span{
+    font-size: 0.8rem;
+}
+.menu_chinh{
+    background-color: #E8EBED;
+}
+.menu li{
+    margin-top: 5px;
 }

@@ -1,11 +1,76 @@
 .body{
     padding-left:60px;
     padding-top: 20px;
+    margin-top: 65px;
+    margin-left: 110px;
+    padding-right: 5% ;
 }
 section h1{
     font-weight:800;
     font-size: 2rem;
 }
 .heading{
+
     padding-bottom: 80px;
+}
+.learningBar .box1{
+    border: 2px solid #E8E8E8;
+    width: 500px;
+    height: 235px;
+    border-radius: 20px;
+    padding: 24px;   
+}
+.learningBar img{
+    width: 98px;
+    height: 98px;
+}
+.img_btn{
+    align-items: center;
+    border: 5px solid #F05123;
+    border-radius: 50%;
+    display: flex;
+    height: 122px;
+    justify-content: center;
+    overflow: hidden;
+    width: 350px;
+}
+.click_btn {
+    display: flex;
+    width: 110px;
+    height: 40px;
+    background-color: #F05123;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.suggest{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.suggest_img img{
+    width: 420px;
+}
+.suggest_info{
+    width: 400px;
+    height: 270px;
+}
+.suggest_info h2{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.suggest_info p{
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+.suggest_info a{
+    border: 2px solid black;
+    padding: 10px 16px;
+    margin-top: 10px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 900px;
 }

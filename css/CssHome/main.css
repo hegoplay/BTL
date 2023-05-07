@@ -97,7 +97,7 @@ main{
 }
 .menu{
     width: 100px;
-    margin-top: 70px;
+    margin-top: 65px;
     display: flex;
     position: fixed;
     z-index: 1;
@@ -107,6 +107,9 @@ main{
     border-right: #020c13 1px solid;
 
 }
+/* .menu .main{
+    background-color: #E8EBED;
+} */
 .menu .menu1{
     border-radius: 50%;
     cursor: pointer;
@@ -131,7 +134,9 @@ main{
     cursor: pointer;
     border-radius: 20px;
 }
-
+.menu_chinh{
+    background-color: #E8EBED;
+}
   
 .menu span{
     display: block;
