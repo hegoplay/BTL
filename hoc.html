@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./css/CssHome/home_wrapper.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/hoc.css">
-    <link rel="stylesheet" href="./bootstrap-4.0.0-dist/css/bootstrap.min.css">
-    <script src = "./bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap-4.0.0-dist/js/jquery-3.6.4.min.js"></script>
+    <script src="./bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/545c91a9e5.js" crossorigin="anonymous"></script>
     <title>Danh sách các khóa học lập trình tại F8 | by F8</title>
 </head>
@@ -20,12 +20,17 @@
             <div class="header">
                 <div class="header_top top_left">
                     <img class="image_small " src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png" alt="">
-                    <h4 class="left_item ">Học Lập Trình Để Đi Làm</h4>
+                    <a class="left_item " href="">< QUAY LẠI</a>
+                    
                 </div>
-                <div class="header_top">
-
-                    <input class="center_item" type="text" name="" placeholder="Tìm kiếm khóa học, bài viết, Video, ...">
+                <div class="header_top1 d-flex flex-row">
+                <div class="search_icon">
+                    <i class="fa-solid fa-magnifying-glass" style="display: flex;
+                    align-items: center;
+                    justify-content: center;font-size: 15px;"></i>
                 </div>
+                <input class="center_item" type="text" name="" placeholder="Tìm kiếm khóa học, bài viết, Video, ...">
+            </div>
                 <div class="header_top top_right">
                     <button class="right_item">Khóa học của tôi</button>
                     <img class="image_right"  src="/image/icone-de-cloche-grise.png" alt="">
@@ -50,8 +55,9 @@
                                 <span>Lộ trình</span>
                             </a>
                         </div>
-                        <div class="menu2 menu-active">
-                            <img style="height: 28px;width: 33px;margin-top: 10px;" src="/image/pngtree-light-bulb-icon-png-image_4231685.png" alt="">
+                        <div class="menu2 menu-active menu_chinh">
+                        
+                            <i style="font-size: 18px;" class="fa-sharp fa-solid fa-lightbulb"></i>
                             <span>Học</span>
                         </div>
                         <div class="menu2 ">
@@ -71,5 +77,9 @@
                     </div>
                 </div>
             </main>
+            <div>
+                
+            </div>
+        </div>
 </body>
 </html>

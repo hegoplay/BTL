@@ -11,21 +11,23 @@ div {
 * {
     padding: 0;
     margin: 0;
+   font-size: 10px;
 }
-a{
-    outline: none;
-    color: black;
-    text-decoration: none;
-    
-}
+
 a:focus, a:hover, a:visited {
     outline: none;
-    color: black;
-    text-decoration: none;
     
+    
+    text-decoration: none;
 }
-
-
+/* .box{
+    min-width: 100vh;
+} */
+a{
+    color: black;
+    
+    text-decoration: none;
+}
 
 .header {
     padding: 0;
@@ -34,14 +36,17 @@ a:focus, a:hover, a:visited {
     align-items: center;
     justify-content: space-between;
     margin: none;
-    border-bottom: 2px solid #020c13;
+    border-bottom: 1px solid #808990 ;
     position: fixed;
     z-index: 2;
     width: 100%;
     background-color: white;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
-
+.header h4{
+    color: black;
+    font-size: 1.4rem;
+}
 .header_top {
     display: flex;
     align-items: center;
@@ -55,8 +60,14 @@ a:focus, a:hover, a:visited {
     display: block;
     align-items: center;
     margin-left: 16px;
-    font-weight: 700;
-    font-size: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #808990;
+}
+
+.left_item a:hover {
+    text-decoration: none;
+    color: #808990;
 }
 .header_top1  {
     display: flex;
@@ -72,7 +83,7 @@ a:focus, a:hover, a:visited {
     width: 425px;
    border: none;
    padding-left: 10px;
-    
+    font-size: 1.4rem;
 }
 .header_top input:hover, input:focus, input:visited{
     outline: none;
@@ -102,7 +113,7 @@ a:focus, a:hover, a:visited {
     overflow: hidden;
     outline: none;
     margin-right: 30px;
-    font-size: 1, 4rem;
+    font-size: 1.4rem;
 }
 
 .usericon {
@@ -127,15 +138,14 @@ main {
     width: 100px;
     margin-top: 65px;
 
-
     display: flex;
     position: fixed;
     z-index: 1;
-    height: 100%;
+    height: 400px;
     background-color: white;
     justify-content: center;
-    border-right: #020c13 1px solid;
-
+   
+    
 }
 
 .menu .menu1 {
@@ -170,11 +180,13 @@ main {
 
 .menu span {
     display: block;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 200;
     margin-top: 6px;
 }
-
+.menu2 a{
+    color: black;
+}
 .menu2:hover {
     background-color: #E8EBED;
 }

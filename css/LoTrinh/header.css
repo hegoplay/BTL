@@ -17,6 +17,10 @@ a{
     height: 100%;
     padding-right: 0;
 }
+p{
+    font-size: 1.5rem;
+}
+
 .header{
     width: 100%;
     border-bottom: 1px solid black;
@@ -42,6 +46,7 @@ a{
     align-items: center;
     width: 420px;
     border: none;
+    font-size: 1.4rem;
 }
 .header_item1 input:hover, input:focus, input:visited{
     outline: none;
@@ -50,7 +55,7 @@ a{
 
 .header_item a{
     color: #808990;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     padding-left: 15px;
 }
 .header_item a:hover {
@@ -80,7 +85,7 @@ a{
     overflow: hidden;
     outline: none;
     margin-right: 30px;
-    font-size: 1,4rem;
+    font-size: 1.4rem;
 }
 .usericon{
     border-radius: 50%;
@@ -89,16 +94,19 @@ a{
 }
 
 .menu{
-    width: 100px;
+     /* max-height: 80%;
+  overflow-y: auto; */
+    width: 110px;
     display: flex;
     z-index: 1;
-    height: 100%;
-    position: fixed;
+    height: 400px;
+    position: sticky;
     background-color: white;
     justify-content: center;
-    border-right: #020c13 1px solid;
+    
     margin-top: 65px;
-    margin-left: 15px;
+    top: 65px;
+    padding: 0;
 }
 .menu .menu1{
     border-radius: 50%;
@@ -108,7 +116,7 @@ a{
     height: 44px;
     width: 44px;
     color: white;
-    font-size: 1.6rem;
+    font-size: 2rem;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -136,7 +144,7 @@ a{
      margin-left: 83px; 
 }
 .menu span{
-    font-size: 0.8rem;
+    font-size: 1.3rem;
 }
 .menu_chinh{
     background-color: #E8EBED;
