@@ -20,12 +20,13 @@ h2{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        font-size: 2.5rem;
     }
     .home_wrapper_heading_lable{
         background-color: #1473e6;
         border-radius: 4px;
         color: #fff;
-        font-size: 0.8rem;
+        font-size: 1.5rem;
         font-weight: 500;
         padding: 3px 6px;
         position: relative;
@@ -59,7 +60,7 @@ h2{
         height: 100%;
         background-color: rgba(0,0,0,.5);
         color: #000;
-        font-size: 15px;
+        font-size: 1.5rem;
         align-items: center;
         justify-content: center;
         border-radius: 20px;
@@ -83,7 +84,7 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.5;
     font-weight: 600;
     padding: 12px 24px;
@@ -116,7 +117,7 @@ h2{
     top: 12px;
 }
 .oldprice{
-    font-size: 0.9rem;
+    font-size: 1.4rem;
     text-decoration: line-through 2px solid;
 }
 .newprice{
@@ -128,19 +129,20 @@ h2{
 }
 .home_wrapper_element_p{
     color: #82919b;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
    
 }
 .home_wrapper_heading a{
    color: #F3734F; 
-   font-size: 0.9rem;
+   font-size: 1.4rem;
    font-weight: 600;
 }
 .xemlotrinh:hover{
     text-decoration: underline;
+    color: #F3734F; 
 }
 .access{
-    font-size: 0.9rem;
+    font-size: 1.4rem;
     margin-bottom: 0;
 }
 /* bai viet noi bac */
@@ -166,7 +168,7 @@ h2{
 }
 .thumb_element_item span{
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
 }
 
 .play_button{
@@ -194,5 +196,10 @@ h2{
     align-items: center;
     justify-content: center;
     border: 1px solid white;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
+}
+section a:hover{
+    outline: none;
+    color: #000;
+    text-decoration: none;
 }

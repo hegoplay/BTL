@@ -11,24 +11,21 @@ div {
 * {
     padding: 0;
     margin: 0;
-   font-size: 10px;
+   
 }
-
+/* span{
+    font-size: 1.5rem;
+} */
 a:focus, a:hover, a:visited {
     outline: none;
-    
-    
+    color: #000;
     text-decoration: none;
-}
-/* .box{
-    min-width: 100vh;
-} */
-a{
-    color: black;
-    
-    text-decoration: none;
-}
 
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
 .header {
     padding: 0;
     display: flex;
@@ -45,7 +42,8 @@ a{
 }
 .header h4{
     color: black;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 .header_top {
     display: flex;
@@ -133,19 +131,21 @@ main {
     align-items: center;
     flex-direction: column;
 }
-
-.menu {
-    width: 100px;
-    margin-top: 65px;
-
+#box{
     display: flex;
-    position: fixed;
+}
+.menu {
+    width: 110px;
+    display: flex;
     z-index: 1;
     height: 400px;
+    position: sticky;
     background-color: white;
     justify-content: center;
-   
     
+    margin-top: 65px;
+    top: 65px;
+    padding: 0;
 }
 
 .menu .menu1 {
@@ -156,7 +156,7 @@ main {
     height: 44px;
     width: 44px;
     color: white;
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -180,7 +180,7 @@ main {
 
 .menu span {
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 200;
     margin-top: 6px;
 }
