@@ -30,6 +30,10 @@ a{
     z-index: 2;
     background-color: white;
 }
+.header_item{
+    display: flex;
+    align-items: center;
+}
 .header_item1{
     padding-left: 20px;
     padding-right: 20px ;
@@ -94,7 +98,7 @@ a{
 .menu{
      /* max-height: 80%;
   overflow-y: auto; */
-    width: 110px;
+    width: 100px;
     display: flex;
     z-index: 1;
     height: 400px;

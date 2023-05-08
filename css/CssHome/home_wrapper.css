@@ -3,15 +3,17 @@ h2{
     font-size: 1.5rem;
 }
 .home_wrapper{
-    margin-top: 70px;
+    margin-top: 10px;
     overflow: hidden;
-    padding: 0 44px 74px
+    padding-left:  15px ;
+    
 }
     .home_wrapper_heading{
         display: flex;
         align-items: center;
         height: 60px;
         justify-content: space-between;
+        /* margin-top: 80px; */
     }
     .home_wrapper_heading_element{
         color: #242424;
@@ -34,11 +36,25 @@ h2{
         text-transform: uppercase;
         top: -6px;
     }
+.home_wrapper_body{
+    width: 95%;
+}
+.heading{
+    padding-bottom: 70px;
+}
+.heading h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.heading p{
+    font-size: 1.5rem;
 
+}
 .index_home_wrapper_body{
     display: flex;
     flex-wrap: wrap;
     height: 260px;
+    justify-content: space-between;
 }
 .thumb {
     background-color: rgba(0,0,0,.1);
@@ -122,11 +138,9 @@ h2{
 }
 .newprice{
     color: red;
+    font-size: 1.4rem;
 }
 
-.index_home_wrapper_body{
-    justify-content: space-between;
-}
 .home_wrapper_element_p{
     color: #82919b;
     font-size: 1.4rem;
@@ -201,5 +215,43 @@ h2{
 section a:hover{
     outline: none;
     color: #000;
+    text-decoration: none;
+}
+.suggest{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.suggest_img img{
+    width: 420px;
+}
+.suggest_info{
+    width: 400px;
+    height: 270px;
+}
+.suggest_info h2{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.suggest_info p{
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+.suggest_info a{
+    border: 2px solid black;
+    padding: 10px 16px;
+    margin-top: 10px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 900px;
+    transition: .2s ease;
+    width: 110px;
+    color: black;
+}
+.suggest_info a:hover{
+    background-color: #292929;
+    color: #fff;
     text-decoration: none;
 }
