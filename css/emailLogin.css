@@ -1,0 +1,70 @@
+.login-return:link,
+.login-return:visited {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    padding: 32px;
+    color: black;
+    text-decoration: none;
+}
+
+.enable {
+    opacity: 1 !important;
+    cursor: pointer !important;
+}
+
+.login-return i {
+    font-size: 2rem;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-start;
+    width: 380px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.email-container .email-label {
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.email-border {
+    border-radius: 44px;
+    padding: 12px 20px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+}
+
+.email-container .email-inp {
+
+
+
+
+    background: rgba(22, 24, 35, .06);
+    border: 1px solid rgba(22, 24, 35, .06);
+    color: #7b7b7b;
+}
+
+.email-container .email-btn {
+    font-weight: 700;
+    color: white;
+    margin-top: 8px;
+    background-image: linear-gradient(45deg, #2bcef9, #22ddc3);
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+input[type="password"] {
+    font-weight: 700;
+    color: black
+}
+
+.email-container .email-btn:focus {
+    outline: none;
+}
