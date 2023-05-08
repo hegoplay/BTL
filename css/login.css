@@ -2,7 +2,6 @@
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     --height: 44px;
     --icon-size: 20px;
-    --primary-color: #f05123;
 
 }
 
@@ -71,8 +70,7 @@
     color: rgba(0, 0, 0, 0.9);
 }
 
-.login-card .login-selections-item:hover,
-.login-card .login-selections-item:focus {
+.login-card .login-selections-item:hover {
     background-color: #dce0e3;
 }
 
@@ -104,6 +102,8 @@
     text-align: center;
 }
 
+.login-card .phone-login {}
+
 .login-card .login-register {
     margin-top: 40px;
     font-size: 1.4rem;
@@ -127,9 +127,9 @@
 .login-nav {
     position: relative;
     display: inline-block;
-    left: 50%;
-    transform: translate(-50%, 80px);
-    top: 0;
+    left: 0;
+    transform: translate(0, 40px);
+    bottom: 0;
     font-size: 14px;
     word-spacing: 2px;
     color: #fff;
@@ -141,3 +141,5 @@
     text-decoration: none;
     color: #fff;
 }
+
+/* Phone login */
