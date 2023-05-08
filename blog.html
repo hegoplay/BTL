@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/slidebar.css" />
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="shortcut icon" href="image/f8_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/fonts/themify-icons.css">
+    <script src="https://kit.fontawesome.com/545c91a9e5.js" crossorigin="anonymous"></script>
+    <title>Danh sách bài viết về lĩnh vực IT / CNTT / Phần mềm / lập trình tại F8</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="row">
+            <div class="col col-triple row-flex">
+                <a class="nav-return" href="index.html">
+                    <img src="image/f8_icon.png" alt="" class="image_small">
+                    <i class="ti-angle-left  nav-text js-left-arrow"></i>
+                    <span class="nav-text">Quay lại</span>
+                </a>
+            </div>
+            <div class="col col-triple row-flex flex-center">
+                <input type="text" class="nav-search-bar" style="background-image: url(image/search.webp);"
+                    placeholder="Tìm kiếm khóa học, bài viết, video, ...">
+            </div>
+            <div class="col col-triple row-flex flex-right">
+                <button class="khoa-hoc-btn js-khoa-hoc-btn">Khoá học của tôi</button>
+                <i class="ti-bell nav-bell"></i>
+                <img src="image/User-Icon-Grey.png" alt="" class="usericon" onclick="userIconOnClick()">
+            </div>
+            <div id="user-info">
+                <div class="user-heading">
+                    <img src="/image/User-Icon-Grey.png" alt="" class="usericon user-img">
+                    <div class="user-txt">
+                        <h3 class="user-name">Phạm Thế Mạnh</h3>
+                        <p class="user-desc">@phamTheManh</p>
+                    </div>
+
+                </div>
+                <div class="user-container">
+                    <div class="line-break"></div>
+                    <a href="#" class="user-container-row">Trang cá nhân</a>
+
+
+                    <div class="line-break"></div>
+                    <a href="#" class="user-container-row">
+                        Viết blog
+                    </a>
+                    <a href="#" class="user-container-row">
+                        Bài viết của tôi
+                    </a>
+                    <div class="line-break"></div>
+                    <a href="#" class="user-container-row">
+                        Bài viết đã lưu
+                    </a>
+                    <div class="line-break"></div>
+                    <a href="#" class="user-container-row">
+                        Cài đặt
+                    </a>
+                    <a href="login.html" class="user-container-row">Đăng xuất</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="slidebar">
+            <div class="slidebar-create-btn">
+                <i class="ti-plus"></i>
+            </div>
+            <div class="slidebar-sub-btn">
+                <a class="slidebar-square-btn">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="btn-txt">Home</span>
+                </a>
+                <a class="slidebar-square-btn">
+                    <i class="fa-solid fa-road"></i>
+                    <span class="btn-txt">Lộ trình</span>
+                </a>
+                <a class="slidebar-square-btn">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <span class="btn-txt">Học</span>
+                </a>
+                <a class="slidebar-square-btn btn-selected">
+                    <i class="fa-solid fa-newspaper"></i>
+                    <span class="btn-txt">Blog</span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-bg close">
+        <footer>
+            <div class="footer-container">
+                <div class="footer-item" style="width: 25%;">
+                    <div class="footer-item-header">
+                        <img src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png" alt="f8"
+                            style="height: 38px;width:38px;border-radius:8px">
+                        <span class="footer-item-title">Học Lập Trình Để Đi Làm</span>
+                    </div>
+                    <div class="footer-item-contact-list">
+                        Điện thoại:
+                        <a href="#a">0944.xxx.xxx</a><br>
+                        Email:
+                        <a href="#a">thmnh113@gmail.com</a><br>
+                        Địa chỉ: Số xx Phạm Văn Đồng, , Thành phố Thủ Đức TP.HCM
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <h2 class="footer-item-title">VỀ F8</h2>
+                    <ul class="footer-item-list">
+                        <li> <a href="#a">Giới thiệu</a> </li>
+                        <li> <a href="#a">Liên hệ</a> </li>
+                        <li> <a href="#a">Điều khoản</a> </li>
+                        <li> <a href="#a">Bảo mật</a> </li>
+                        <li> <a href="#a">Cơ hội việc làm</a> </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h2 class="footer-item-title">SẢN PHẨM</h2>
+                    <ul class="footer-item-list">
+                        <li> <a href="#a">Game Nester</a> </li>
+                        <li> <a href="#a">Game CSS Diner</a> </li>
+                        <li> <a href="#a">Game CSS Selectors</a> </li>
+                        <li> <a href="#a">Game Froggy</a> </li>
+                        <li> <a href="#a">Game Froggy Pro</a> </li>
+                        <li> <a href="#a">Game Scoops</a> </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h2 class="footer-item-title">CÔNG CỤ</h2>
+                    <ul class="footer-item-list">
+                        <li> <a href="#a">Tạo CV xin việc</a> </li>
+                        <li> <a href="#a">Rút gọn liên kết</a> </li>
+                        <li> <a href="#a">Clip-path maker</a> </li>
+                        <li> <a href="#a">Snippet generator</a> </li>
+                        <li> <a href="#a">Cảnh báo sờ tay lên mặt</a> </li>
+                    </ul>
+                </div>
+                <div class="footer-item" style="width: 25%;">
+                    <div class="footer-item-header">
+
+                        <span class="footer-item-title">CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8</span>
+                    </div>
+                    <div class="footer-item-contact-list">
+                        Mã số thuế: 010992xxxx
+                        <br>
+                        Ngày thành lập: 10/04/2023
+                        <br>
+                        Lĩnh vực: Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá
+                        trị
+                        cho cộng đồng.
+                    </div>
+                </div>
+            </div>
+            <div class="footer-final">
+                <div class="footer-copyright">&#169; 2022 - 2023 F8. Vjp Pro mãi đỉnh</div>
+                <div class="footer-social">
+                    <img src="image/youtube.png" alt="" class="footer-social-icon">
+                    <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/128/facebook-icon.png"
+                        class="footer-social-icon">
+                    <img src="image/tiktok.png" class="footer-social-icon">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/blog.js"></script>
+</body>
+
+</html>

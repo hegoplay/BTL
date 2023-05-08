@@ -62,7 +62,8 @@
 
 input[type="password"] {
     font-weight: 700;
-    color: black
+    color: black;
+
 }
 
 .email-container .email-btn:focus {

@@ -30,7 +30,67 @@ div {
     --font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     --home-slideshow-left-space: 116px;
     --home-section-left-space: 160px;
+    --nav-height: 66px;
     caret-color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--gray-color);
+}
+
+a:hover {
+    color: var(--black-color)
+}
+
+.row {
+    display: block;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: inherit;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: inherit;
+}
+
+.col-dou {
+    width: 50%;
+}
+
+.row-flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-left {
+    justify-content: left;
+
+}
+
+.flex-right {
+    justify-content: right;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.col-triple {
+    width: calc(100%/3 - 1px);
+}
+
+.close {
+    display: none
+}
+
+
+.image_xs {
+    width: 28px;
+    border-radius: 50%;
 }
 
 body {
@@ -110,6 +170,7 @@ body {
     border-radius: 50%;
     height: 30px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 /* cainaytrongmain */
@@ -179,7 +240,8 @@ main {
 }
 
 /* User infomation */
-.header #user-info {
+#user-info {
+    text-transform: none;
     display: none;
     width: 200px;
     position: absolute;
@@ -195,12 +257,12 @@ main {
 
 }
 
-.header .user-img {
+#user-info .user-img {
     float: left;
     height: 100%;
 }
 
-.header .user-txt {
+#user-info .user-txt {
     display: flex;
     width: calc(100%-40px);
     height: 100%;
@@ -212,35 +274,35 @@ main {
 
 }
 
-.header .user-name {
+#user-info .user-name {
     font-size: 1.6rem;
 }
 
-.header .user-desc {
+#user-info.user-desc {
     font-size: 1.4rem;
     opacity: 0.6;
 }
 
-.header .user-heading {
+#user-info .user-heading {
     height: 40px;
 }
 
-.header .user-container {
+#user-info .user-container {
     margin-top: 1.6rem;
 }
 
-.header .user-container-row {
+#user-info .user-container-row {
     display: block;
     font-size: 1.4rem;
     padding: 1rem 0;
     opacity: 0.7;
 }
 
-.header .user-container-row:hover {
+#user-info .user-container-row:hover {
     opacity: 0.8;
 }
 
-.header .line-break {
+#user-info .line-break {
     margin: 8px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
