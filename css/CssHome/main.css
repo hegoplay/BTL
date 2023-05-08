@@ -237,6 +237,9 @@ main {
     border-radius: 20px;
 }
 
+.menu_chinh {
+    background-color: #E8EBED;
+}
 
 .menu span {
     display: block;
@@ -331,4 +334,8 @@ main {
         top: 67px;
         opacity: 1;
     }
+}
+
+.menu2:hover {
+    background-color: #E8EBED;
 }
