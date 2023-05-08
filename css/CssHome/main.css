@@ -9,8 +9,8 @@ div {
 }
 
 * {
-    padding: 0;
-    margin: 0;
+    /* padding: 0;
+    margin: 0; */
     font-size: 10px;
     box-sizing: border-box;
     --primary-color: #f05123;
@@ -97,7 +97,7 @@ a:hover {
     width: calc(100%/3 - 1px);
 }
 
-.close {
+.closed {
     display: none
 }
 
@@ -340,6 +340,18 @@ main {
     }
 }
 
-.menu2:hover {
-    background-color: #E8EBED;
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+    height: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d9d9d9;
+    border-radius: 10px;
 }
