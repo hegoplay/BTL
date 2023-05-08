@@ -11,13 +11,21 @@ div {
 * {
     padding: 0;
     margin: 0;
-    font-size: 10px;
-    box-sizing: border-box;
-    --primary-color: #f05123;
 }
 
-body {
-    position: relative;
+a:focus,
+a:hover,
+a:visited {
+    outline: none;
+    color: #000;
+    text-decoration: none;
+
+}
+
+a {
+    outline: none;
+    color: #000;
+    text-decoration: none;
 }
 
 .header {
@@ -27,7 +35,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #020c13;
     position: fixed;
     z-index: 2;
     width: 100%;
@@ -48,7 +56,7 @@ body {
     align-items: center;
     margin-left: 16px;
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 .center_item {
@@ -56,7 +64,6 @@ body {
     width: 425px;
     border-radius: 50px;
     border: 2px solid #e8ebed;
-    transition: border-color .2s ease-in-out;
 }
 
 .image_small {
@@ -97,15 +104,24 @@ main {
     overflow: hidden;
 }
 
+.menu nav div a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .menu {
     width: 100px;
-    margin-top: 70px;
+    margin-top: 65px;
+
+
     display: flex;
     position: fixed;
     z-index: 1;
     height: 100%;
-    background-color: transparent;
+    background-color: white;
     justify-content: center;
+    border-right: #020c13 1px solid;
 
 }
 
@@ -117,17 +133,11 @@ main {
     height: 44px;
     width: 44px;
     color: white;
-    font-size: 2rem;
+    font-size: 1.6rem;
     align-items: center;
     justify-content: center;
     display: flex;
     cursor: pointer;
-    transition: all 0.5s ease;
-}
-
-.menu .menu1:hover {
-    font-size: 3.2rem;
-    transition: all 0.5s ease;
 }
 
 .menu .menu2 {
@@ -141,83 +151,17 @@ main {
     border-radius: 20px;
 }
 
+.menu_chinh {
+    background-color: #E8EBED;
+}
 
 .menu span {
     display: block;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 200;
     margin-top: 6px;
 }
 
 .menu2:hover {
     background-color: #E8EBED;
-}
-
-.menu-active {
-    background-color: #e8ebed;
-}
-
-/* User infomation */
-.header #user-info {
-    display: none;
-    width: 200px;
-    position: absolute;
-    z-index: 10;
-    right: 5px;
-    top: 67px;
-    padding: 12px;
-    font-size: 1.4rem;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15), 0 0 3px 3px rgba(0, 0, 0, 0.12), 0 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.header .user-img {
-    float: left;
-    height: 100%;
-}
-
-.header .user-txt {
-    display: flex;
-    width: calc(100%-40px);
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    font-size: 1.4rem;
-    padding-left: 20px;
-
-}
-
-.header .user-name {
-    font-size: 1.6rem;
-}
-
-.header .user-desc {
-    font-size: 1.4rem;
-    opacity: 0.6;
-}
-
-.header .user-heading {
-    height: 40px;
-}
-
-.header .user-container {
-    margin-top: 1.6rem;
-}
-
-.header .user-container-row {
-    display: block;
-    font-size: 1.4rem;
-    padding: 1rem 0;
-    opacity: 0.7;
-}
-
-.header .user-container-row:hover {
-    opacity: 0.8;
-}
-
-.header .line-break {
-    margin: 8px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }

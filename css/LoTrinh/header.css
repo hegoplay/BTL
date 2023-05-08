@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a:focus, a:hover, a:visited {
+    outline: none;
+    color: #000;
+    text-decoration: none;
+
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.container-fluid{
+    padding-left: 0;
+    height: 100%;
+    padding-right: 0;
+}
+.header{
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: fixed;
+    height: 65px; 
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 2;
+}
+.header_item1{
+    padding-left: 20px;
+    padding-right: 20px ;
+    width: 420px;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #E8E8E8;
+    
+}
+.header_item1 input{
+    height: 40px;
+    align-items: center;
+    width: 420px;
+    border: none;
+}
+.header_item1 input:hover, input:focus, input:visited{
+    outline: none;
+    
+}
+
+.header_item a{
+    color: #808990;
+    font-size: 0.8rem;
+    padding-left: 15px;
+}
+.header_item a:hover {
+    text-decoration: none;
+    color: #808990;
+}
+.header_item{
+    align-items: center;
+}
+.image_small{
+    height: 40px;
+    border-radius: 10px;
+}
+.image_right{
+    height: 20px;
+    margin-right: 22px;
+}
+.search_icon i{
+    width: 30px;
+    height: 30px;
+}
+.right_item{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    margin-right: 30px;
+    font-size: 1,4rem;
+}
+.usericon{
+    border-radius: 50%;
+    height: 30px;
+    object-fit: cover;
+}
+
+.menu{
+    width: 100px;
+    display: flex;
+    z-index: 1;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    justify-content: center;
+    border-right: #020c13 1px solid;
+    margin-top: 65px;
+    margin-left: 15px;
+}
+.menu .menu1{
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 17px;
+    background-color: #1473e6;
+    height: 44px;
+    width: 44px;
+    color: white;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+/* .menu .main{
+    background-color: #E8EBED;
+} */
+.menu .menu2{
+    display: flex;
+    flex-direction: column;
+    width: 72px;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+.menu2:hover{
+    background-color: #E8EBED;
+}
+.main{
+   
+     margin-left: 83px; 
+}
+.menu span{
+    font-size: 0.8rem;
+}
+.menu_chinh{
+    background-color: #E8EBED;
+}
+.menu li{
+    margin-top: 5px;
+}
