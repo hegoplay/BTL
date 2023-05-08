@@ -3,14 +3,16 @@
 }
 
 .footer-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #181821;
-    padding: 0 20rem;
 }
 
 footer {
     color: #8C949C;
-    font-size: 1.4rem;
-    width: 100%;
+    width: 1500px;
+    max-width: var(100%-16px);
     padding: 68px 0;
     background-color: #181821;
 }

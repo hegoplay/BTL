@@ -32,6 +32,12 @@ div {
     --home-section-left-space: 160px;
     --nav-height: 66px;
     caret-color: var(--primary-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*::selection {
+    color: white;
+    background-color: var(--primary-color);
 }
 
 a {
@@ -48,6 +54,14 @@ a:hover {
     margin-left: -8px;
     margin-right: -8px;
     height: inherit;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
 }
 
 .col {

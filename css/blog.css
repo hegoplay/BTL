@@ -97,13 +97,18 @@
     display: flex;
     min-height: 100vh;
     padding-top: 8px;
+    width: 100%;
 }
 
 .slidebar {
     width: 96px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: sticky;
+    top: calc(var(--nav-height) + 8px);
+    margin-bottom: 8px;
 }
 
 .slidebar .slidebar-create-btn {
@@ -158,4 +163,87 @@
 
 .slidebar .slidebar-square-btn .btn-txt {
     font-size: 1.2rem;
+}
+
+.layout {
+    padding-left: 64px;
+    width: 100%;
+}
+
+.container-top {
+    margin-top: 20px;
+    padding-bottom: 80px;
+}
+
+.container-top-header {
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.container-top-desc {
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.container-main {}
+
+.blog-left-layout {}
+
+.post-item {
+    border: 2px solid #e8e8e8;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.post-item-author {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-item-author .author-img {
+    width: 28px;
+    border-radius: 50%;
+}
+
+.post-item-author .author-name {
+    margin-left: 8px;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.post-item-author .post-save {
+    padding: 4px 8px;
+}
+
+.post-item-author .post-save i {
+    font-size: 1.6rem;
+}
+
+.post-item-author .post-item-option {
+    padding: 4px 8px;
+}
+
+.post-item-author .post-item-option i {
+    font-size: 1.5rem;
+}
+
+.post-item .post-item-title {
+    margin: 0;
+    margin-top: 8px;
+    font-size: 20px;
+    padding: 0;
+}
+
+.post-item .post-item-content {
+    margin: 0;
+    padding: 0;
+}
+
+.post-item .post-item-status {
+    margin: 0;
+    padding: 0;
 }
