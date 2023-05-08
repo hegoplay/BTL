@@ -1,0 +1,42 @@
+.announcement{
+    position: absolute;
+    font-size: 2.4rem;
+    width: 46px;
+    height: 46px;
+    color:black;
+    bottom: 126px;
+    left: 25px;
+    z-index: 2;
+    background-color: #f3f3f3;
+    padding:8px;
+    border-radius: 50%;
+    cursor: grab;
+}
+.left-icon{
+    position: relative;
+    font-size: 2.4rem;
+    line-height: 100%;
+    margin:auto;
+
+}
+.menu2 a:link,.menu2 a:visited{
+    text-decoration:none;
+}
+.announcement .announcement-text{
+    display:none;
+    
+}
+.announcement:hover .announcement-text{
+    display:inline-block;
+    position: absolute;
+    top:-40px;
+    width: max-content;
+    background-color: black;
+    left:0;
+    transform: translateX(-18%);
+    color:white;
+    font-size: 1.4rem;
+    padding:8px;
+    border-radius: 4px;
+    transition: display 0.5s ease-in-out ;
+}
