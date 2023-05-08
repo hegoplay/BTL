@@ -5,24 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./css/CssHome/main.css" />
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./css/CssHome/slidebar.css" />
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/blog.css">
 
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-reboot.css">
 
     <link rel="shortcut icon" href="image/f8_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/fonts/themify-icons.css">
     <script src="https://kit.fontawesome.com/545c91a9e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <script src="assets/js/jquery.js"></script>
     <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/blog.css">
     <title>Danh sách bài viết về lĩnh vực IT / CNTT / Phần mềm / lập trình tại F8</title>
 </head>
 
 <body>
     <!-- Begin navbar -->
-    <div class="nav">
+    <div class="navi">
         <div class="row">
             <div class="col col-triple row-flex">
                 <a class="nav-return" href="index.html">
@@ -343,6 +345,39 @@
                 </div>
             </div>
         </footer>
+    </div>
+    <button class="new-feed-btn" data-toggle="modal" data-target="#feed-modal">
+        <i class="ti-rss-alt"></i>
+        <span class="new-feed-hover">Bảng tin F8</span>
+    </button>
+    <div class="modal fade" id="feed-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="feed-modal-title">Bảng Tin F8</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="modal-title">Giờ đây, bạn có thể cấu hình cách bạn nhận thông báo 🎉</h5>
+                    <p class="modal-time">một tháng trước</p>
+                    <div class="modal-container">
+                        <p>Truy cập Avatar -> Cài đặt -> Thông báo để cấu hình cách mà tài khoản của bạn nhận thông báo
+                            từ hệ thống F8 nhé.</p>
+                        <img src="image/blog/modal-img1.png" alt="" srcset="">
+                        <p>Chúc bạn học tập vui vẻ</p>
+                        <span class="author">Đăng bởi <a href="#">Sơn Đặng <i class="fa-solid fa-circle-check"
+                                    style="color: #005eff;"></i></a></span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="assets/js/blog.js"></script>
 </body>

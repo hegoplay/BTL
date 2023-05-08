@@ -79,6 +79,7 @@ footer {
 
 .footer-item-list {
     margin: 10px 0;
+    padding: 0;
 }
 
 .footer-item-list * {
@@ -122,4 +123,19 @@ footer {
 .footer-social {
     display: inline-flex;
     gap: 10px;
+}
+
+.author {
+    font-size: 1.2rem;
+}
+
+.author>a {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 700;
+    color: var(--primary-color) !important;
+}
+
+.author>a:hover {
+    text-decoration: none;
 }
