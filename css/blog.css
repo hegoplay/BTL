@@ -61,7 +61,7 @@
 .nav .nav-search-bar {
     border-radius: 20px;
     font-size: 1.4rem;
-    padding: 10px 8px 10px 40px;
+    padding: 8px 8px 7px 40px;
     width: 420px;
     border: 2px solid #e8e8e8;
     transition: all .3s linear;
@@ -168,6 +168,7 @@
 .layout {
     padding-left: 64px;
     width: 100%;
+    margin-bottom: 64px;
 }
 
 .container-top {
@@ -193,6 +194,7 @@
     border: 2px solid #e8e8e8;
     border-radius: 16px;
     padding: 24px;
+    margin-top: 16px;
 }
 
 .post-item-author {
@@ -205,6 +207,8 @@
 .post-item-author .author-img {
     width: 28px;
     border-radius: 50%;
+    height: 28px;
+
 }
 
 .post-item-author .author-name {
@@ -231,19 +235,98 @@
     font-size: 1.5rem;
 }
 
+.post-item .post-item-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-item .post-item-text {
+    display: inline-block;
+    width: 75%;
+}
+
+.post-item .post-item-text a:hover {
+    text-decoration: none;
+}
+
 .post-item .post-item-title {
     margin: 0;
     margin-top: 8px;
     font-size: 20px;
     padding: 0;
+    user-select: none;
+    text-decoration: none;
+    color: var(--black-color);
 }
 
-.post-item .post-item-content {
-    margin: 0;
+
+
+.post-item .post-item-desc {
+    margin: 4px 0 16px;
+    font-size: 1.6rem;
     padding: 0;
 }
 
 .post-item .post-item-status {
     margin: 0;
     padding: 0;
+    padding-right: 32px;
+    font-size: 1.4rem;
+}
+
+
+
+.post-item .post-item-img {
+
+    border-radius: 15px;
+    width: 20%;
+    max-height: 120px;
+}
+
+.blog-right-layout {
+    display: block;
+    padding-left: 50px;
+}
+
+.blog-right-layout .topic-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-right-layout .topic-header {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--gray-color);
+    font-weight: 500;
+    margin: 14px 0;
+}
+
+.blog-right-layout .topic-list {}
+
+.topic-list .topic-item {
+    display: inline-block;
+    padding: 6px 16px;
+    font-size: 1.4rem;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    color: var(--black-color);
+    margin: 0 8px 8px 0;
+    font-weight: 600;
+}
+
+.blog-right-layout .banners {
+    width: 300px;
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: sticky;
+    top: 80px;
+}
+
+.blog-right-layout .banner-img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
 }
