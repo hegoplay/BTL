@@ -9,8 +9,8 @@ div {
 }
 
 * {
-    /* padding: 0;
-    margin: 0; */
+    padding: 0;
+    margin: 0;
     font-size: 10px;
     box-sizing: border-box;
     --primary-color: #f05123;
