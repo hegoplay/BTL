@@ -1,33 +1,39 @@
-html{
-  
+html {
+
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-div{
+
+div {
     display: block;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
- 
 }
-a:focus, a:hover, a:visited {
+
+a:focus,
+a:hover,
+a:visited {
     outline: none;
     color: #000;
     text-decoration: none;
 
 }
-a{
+
+a {
     outline: none;
     color: #000;
     text-decoration: none;
 }
-.header{
+
+.header {
     padding: 0;
     display: flex;
     height: 66px;
     align-items: center;
-   justify-content: space-between;
+    justify-content: space-between;
     margin: none;
     border-bottom: 2px solid #020c13;
     position: fixed;
@@ -36,39 +42,52 @@ a{
     background-color: white;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
-.header_top{
-    display: flex ;
+
+.header_top {
+    display: flex;
     align-items: center;
-    float: left;
     padding-left: 20px;
     padding-right: 20px;
+    border-radius: 50px;
+    border: 2px solid #e8ebed;
 }
-.left_item{
+
+.left_item {
     display: block;
-    align-items: center;  
+    align-items: center;
     margin-left: 16px;
     font-weight: 700;
     font-size: 1rem;
 }
-.center_item{
+
+.center_item {
     height: 37px;
     width: 425px;
-    border-radius: 50px;
-    border: 2px solid #e8ebed;
+   border: none;
+   padding-left: 10px;
+    
 }
-.image_small{
+.header_top input:hover, input:focus, input:visited{
+    outline: none;
+    
+}
+
+.image_small {
     height: 40px;
     border-radius: 10px;
 }
-.image_right{
+
+.image_right {
     height: 20px;
     margin-right: 22px;
 }
-.top_right{
+
+.top_right {
     display: flex;
-    
+
 }
-.right_item{
+
+.right_item {
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -76,28 +95,32 @@ a{
     overflow: hidden;
     outline: none;
     margin-right: 30px;
-    font-size: 1,4rem;
+    font-size: 1, 4rem;
 }
-.usericon{
+
+.usericon {
     border-radius: 50%;
     height: 30px;
     object-fit: cover;
 }
 
 /* cainaytrongmain */
-main{
-    
+main {
+
     overflow: hidden;
 }
-.menu nav div a
-{
+
+.menu nav div a {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.menu{
+
+.menu {
     width: 100px;
     margin-top: 65px;
+
+
     display: flex;
     position: fixed;
     z-index: 1;
@@ -107,10 +130,8 @@ main{
     border-right: #020c13 1px solid;
 
 }
-/* .menu .main{
-    background-color: #E8EBED;
-} */
-.menu .menu1{
+
+.menu .menu1 {
     border-radius: 50%;
     cursor: pointer;
     margin: 17px;
@@ -124,7 +145,8 @@ main{
     display: flex;
     cursor: pointer;
 }
-.menu .menu2{
+
+.menu .menu2 {
     display: flex;
     flex-direction: column;
     width: 72px;
@@ -134,17 +156,19 @@ main{
     cursor: pointer;
     border-radius: 20px;
 }
-.menu_chinh{
+
+.menu_chinh {
     background-color: #E8EBED;
 }
-  
-.menu span{
+
+.menu span {
     display: block;
     font-size: 0.8rem;
     font-weight: 200;
     margin-top: 6px;
 }
-.menu2:hover{
+
+.menu2:hover {
     background-color: #E8EBED;
 }
 .menu .menu2{
