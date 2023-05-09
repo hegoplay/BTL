@@ -1,7 +1,7 @@
 .app_withslidebar{
     padding: 0 40px 0 0;
     
-    margin:90px 0 0 130px;
+    margin:90px 0 0 25px;
     position: relative;
 }
 .slide_box 
@@ -11,6 +11,7 @@
     height: 270px;
     width: 100%;
     border-radius: 20px;
+    margin-bottom: 80px;
 }
 .slide_box div.active{
     opacity: 1;

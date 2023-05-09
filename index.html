@@ -32,8 +32,12 @@
                     alt="">
                 <h4 class="left_item ">Học Lập Trình Để Đi Làm</h4>
             </div>
-            <div class="header_top">
-                <div class="search_icon"></div>
+            <div class="header_top1 d-flex flex-row">
+                <div class="search_icon">
+                    <i class="fa-solid fa-magnifying-glass" style="display: flex;
+                    align-items: center;
+                    justify-content: center;font-size: 15px;"></i>
+                </div>
                 <input class="center_item" type="text" name="" placeholder="Tìm kiếm khóa học, bài viết, Video, ...">
             </div>
             <div class="header_top top_right">
@@ -41,40 +45,6 @@
                 <img class="image_right" src="/image/icone-de-cloche-grise.png" alt="">
                 <img class="usericon" id="user-icon" src="/image/User-Icon-Grey.png" alt="" onclick="userIconOnClick()">
             </div>
-            <!-- Begin UserBox -->
-            <div id="user-info">
-                <div class="user-heading">
-                    <img src="/image/User-Icon-Grey.png" alt="" class="usericon user-img">
-                    <div class="user-txt">
-                        <h3 class="user-name">Phạm Thế Mạnh</h3>
-                        <p class="user-desc">@phamTheManh</p>
-                    </div>
-
-                </div>
-                <div class="user-container">
-                    <div class="line-break"></div>
-                    <a href="#" class="user-container-row">Trang cá nhân</a>
-
-
-                    <div class="line-break"></div>
-                    <a href="#" class="user-container-row">
-                        Viết blog
-                    </a>
-                    <a href="#" class="user-container-row">
-                        Bài viết của tôi
-                    </a>
-                    <div class="line-break"></div>
-                    <a href="#" class="user-container-row">
-                        Bài viết đã lưu
-                    </a>
-                    <div class="line-break"></div>
-                    <a href="#" class="user-container-row">
-                        Cài đặt
-                    </a>
-                    <a href="login.html" class="user-container-row">Đăng xuất</a>
-                </div>
-            </div>
-            <!-- End UserBox -->
         </div>
         <main>
             <div class="menu">
@@ -92,9 +62,10 @@
                         </a>
                     </div>
                     <div class="menu2 ">
-                        <img style="height: 28px;width: 33px;margin-top: 10px;"
-                            src="/image/pngtree-light-bulb-icon-png-image_4231685.png" alt="">
-                        <span>Học</span>
+                        <a href="./hoc.html">
+                            <i style="font-size: 18px;" class="fa-sharp fa-solid fa-lightbulb"></i>
+                            <span>Học</span>
+                        </a>
                     </div>
                     <div class="menu2 ">
                         <a href="blog.html">
@@ -106,7 +77,7 @@
                 </nav>
             </div>
 
-            <div class="app_withslidebar">
+            <div class="app_withslidebar col-md-11">
                 <div class="slide_box">
                     <div class="slide_img active">
                         <img class="active" src="/image/silde1.jpg" alt="">
@@ -164,7 +135,7 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;"> HTML CSS Pro</a>
+                                            <a href="" style="font-size: 1.5rem;font-weight: 600;"> HTML CSS Pro</a>
                                         </h3>
                                     </div>
                                     <div>
@@ -184,7 +155,7 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;"> Javascript Pro</a>
+                                            <a href="" style="font-size: 1.5rem;font-weight: 600;"> Javascript Pro</a>
                                         </h3>
                                     </div>
                                 </section>
@@ -200,7 +171,7 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;"> ReactJS Pro</a>
+                                            <a href="" style="font-size: 1.5rem;font-weight: 600;"> ReactJS Pro</a>
                                         </h3>
                                     </div>
                                 </section>
@@ -221,15 +192,16 @@
                                 người khác đã đọc
                             </p>
                         </div>
-                        <div class="home_wrapper_heading">
-                            <h2 class="home_wrapper_heading_element">
-                                Khóa học miễn phí
-                            </h2>
-                            <a href="" class="xemlotrinh">
-                                Xem lộ trình >
-                            </a>
-                        </div>
+
                         <div class="home_wrapper_body">
+                            <div class="home_wrapper_heading">
+                                <h2 class="home_wrapper_heading_element">
+                                    Khóa học miễn phí
+                                </h2>
+                                <a href="" class="xemlotrinh">
+                                    Xem lộ trình >
+                                </a>
+                            </div>
                             <section class="index_home_wrapper_body">
                                 <section class="">
                                     <div style="position: relative;">
@@ -245,7 +217,7 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Kiến Thức Nhập Môn
+                                            <a href="" style="font-size: 1.5rem;font-weight: 600;">Kiến Thức Nhập Môn
                                                 IT</a>
                                         </h3>
                                     </div>
@@ -269,7 +241,7 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Lập trình C++ cơ bản,
+                                            <a href="" style="font-size: 1.5rem;font-weight: 600;">Lập trình C++ cơ bản,
                                                 nâng cao</a>
                                         </h3>
                                     </div>
@@ -292,7 +264,7 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">HTML CSS từ Zero đến
+                                            <a href="" style="font-size: 1.5rem;font-weight: 600;">HTML CSS từ Zero đến
                                                 Hero </a>
                                         </h3>
                                     </div>
@@ -315,7 +287,7 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Responsive Với Grid
+                                            <a href="" style="font-size: 1.5rem;font-weight: 600;">Responsive Với Grid
                                                 System</a>
                                         </h3>
                                     </div>
@@ -340,7 +312,8 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Lập Trình Javascript Cơ
+                                            <a href="" style="font-size: 1.5rem;font-weight: 600;">Lập Trình Javascript
+                                                Cơ
                                                 Bản</a>
                                         </h3>
                                     </div>
@@ -363,7 +336,7 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Lập Trình Javascript
+                                            <a href="" style="font-size: 1.5rem;font-weight: 600;">Lập Trình Javascript
                                                 Nâng Cao</a>
                                         </h3>
                                     </div>
@@ -386,7 +359,8 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Làm việc với Terminal &
+                                            <a href="" style="font-size: 1.5rem;font-weight: 600;">Làm việc với Terminal
+                                                &
                                                 Ubuntu</a>
                                         </h3>
                                     </div>
@@ -409,7 +383,7 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Xây Dựng Website với
+                                            <a href="" style="font-size: 1.5rem;font-weight: 600;">Xây Dựng Website với
                                                 ReactJS</a>
                                         </h3>
                                     </div>
@@ -434,7 +408,7 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 600;">Node & ExpressJS</a>
+                                            <a href="" style="font-size:1.5rem;font-weight: 600;">Node & ExpressJS</a>
                                         </h3>
                                     </div>
                                     <div>
@@ -456,7 +430,8 @@
                                     </div>
                                     <div>
                                         <h3 style="padding: 10px 0 10px;">
-                                            <a href="" style="font-size: 15px;font-weight: 550;">App "Đừng Chạm Tay Lên
+                                            <a href="" style="font-size: 1.5rem;font-weight: 550;">App "Đừng Chạm Tay
+                                                Lên
                                                 Mặt"</a>
                                         </h3>
                                     </div>
@@ -485,7 +460,7 @@
                             </section>
                         </div>
                     </div>
-                    <div class="home_wrapper_element">
+                    <div class="home_wrapper_body">
                         <div class="home_wrapper_heading">
                             <h2 class="home_wrapper_heading_element">
                                 Bài viết nổi bật
@@ -509,7 +484,7 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Tổng hợp các sản phẩm của
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Tổng hợp các sản phẩm của
                                             học viê...</a>
                                     </h3>
                                 </div>
@@ -541,7 +516,8 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">[Phần 1] Tạo dự án ReactJS
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">[Phần 1] Tạo dự án
+                                            ReactJS
                                             với...</a>
                                     </h3>
                                 </div>
@@ -573,7 +549,7 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Kí sự ngày thứ 25 học ở
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Kí sự ngày thứ 25 học ở
                                             F8</a>
                                     </h3>
                                 </div>
@@ -605,7 +581,8 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Cách đưa code lên GitHub và
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Cách đưa code lên GitHub
+                                            và
                                             tạo...</a>
                                     </h3>
                                 </div>
@@ -641,7 +618,7 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Các nguồn tài nguyên hữu
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Các nguồn tài nguyên hữu
                                             ích cho 1...</a>
                                     </h3>
                                 </div>
@@ -675,7 +652,7 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Thời gian và động lực</a>
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Thời gian và động lực</a>
                                     </h3>
                                 </div>
                                 <div class="thumb_element_item">
@@ -708,7 +685,7 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Tổng hợp tài liệu tự học
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Tổng hợp tài liệu tự học
                                             tiếng anh c... </a>
                                     </h3>
                                 </div>
@@ -742,7 +719,8 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Học như thế nào là phù hợp
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Học như thế nào là phù
+                                            hợp
                                             ?</a>
                                     </h3>
                                 </div>
@@ -790,7 +768,7 @@
                                         style="background-image: url('https://i.ytimg.com/vi/YH-E4Y3EaT4/maxresdefault.jpg');">
                                         <div class="thumb_element">
                                             <button>
-                                                Xem khóa học
+                                                Xem video
                                             </button>
                                         </div>
 
@@ -798,7 +776,7 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Sinh Viên IT đi thực tập
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Sinh Viên IT đi thực tập
                                             tại doanh...</a>
                                     </h3>
                                 </div>
@@ -833,7 +811,7 @@
                                         style="background-image: url('https://i.ytimg.com/vi/sgq7BH6WxL8/maxresdefault.jpg');">
                                         <div class="thumb_element">
                                             <button>
-                                                Xem khóa học
+                                                Xem video
                                             </button>
                                         </div>
                                     </a>
@@ -841,7 +819,7 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">"Code Thiếu Nhi Battle"
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">"Code Thiếu Nhi Battle"
                                             Tranh Giành...</a>
                                     </h3>
                                 </div>
@@ -876,7 +854,7 @@
                                         style="background-image: url('https://i.ytimg.com/vi/DpvYHLUiZpc/maxresdefault.jpg');">
                                         <div class="thumb_element">
                                             <button>
-                                                Xem khóa học
+                                                Xem video
                                             </button>
                                         </div>
                                     </a>
@@ -884,7 +862,7 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Phương pháp học lập trình
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Phương pháp học lập trình
                                             của Admi...</a>
                                     </h3>
                                 </div>
@@ -919,7 +897,7 @@
                                         style="background-image: url('https://i.ytimg.com/vi/R6plN3FvzFY/maxresdefault.jpg');">
                                         <div class="thumb_element">
                                             <button>
-                                                Xem khóa học
+                                                Xem video
                                             </button>
                                         </div>
                                     </a>
@@ -927,7 +905,8 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Bạn sẽ làm được gì sau khóa
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Bạn sẽ làm được gì sau
+                                            khóa
                                             học?</a>
                                     </h3>
                                 </div>
@@ -964,7 +943,8 @@
                                         style="background-image: url('https://i.ytimg.com/vi/oF7isq9IjZM/maxresdefault.jpg');">
                                         <div class="thumb_element">
                                             <button>
-                                                Xem khóa học
+                                                Xem Xem video
+
                                             </button>
                                         </div>
 
@@ -972,7 +952,8 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Làm sao để có thu nhập cao
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Làm sao để có thu nhập
+                                            cao
                                             và đi xa</a>
                                     </h3>
                                 </div>
@@ -1007,7 +988,7 @@
                                         style="background-image: url('https://i.ytimg.com/vi/0SJE9dYdpps/maxresdefault.jpg');">
                                         <div class="thumb_element">
                                             <button>
-                                                Xem khóa học
+                                                Xem video
                                             </button>
                                         </div>
                                     </a>
@@ -1015,7 +996,8 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Javascript có thể làm được
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Javascript có thể làm
+                                            được
                                             gì? Giới...</a>
                                     </h3>
                                 </div>
@@ -1050,7 +1032,7 @@
                                         style="background-image: url('https://i.ytimg.com/vi/x0fSBAgBrOQ/maxresdefault.jpg');">
                                         <div class="thumb_element">
                                             <button>
-                                                Xem khóa học
+                                                Xem video
                                             </button>
                                         </div>
                                     </a>
@@ -1058,7 +1040,8 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">ReactJS là gì? Tại sao lại
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">ReactJS là gì? Tại sao
+                                            lại
                                             học ?</a>
                                     </h3>
                                 </div>
@@ -1093,7 +1076,7 @@
                                         style="background-image: url('https://i.ytimg.com/vi/G19jZzK5FWI/maxresdefault.jpg');">
                                         <div class="thumb_element">
                                             <button>
-                                                Xem khóa học
+                                                Xem video
                                             </button>
                                         </div>
                                     </a>
@@ -1101,7 +1084,7 @@
                                 </div>
                                 <div>
                                     <h3 style="padding: 10px 0 10px;">
-                                        <a href="" style="font-size: 15px;font-weight: 600;">Học Flexbox qua ví dụ</a>
+                                        <a href="" style="font-size: 1.5rem;font-weight: 600;">Học Flexbox qua ví dụ</a>
                                     </h3>
                                 </div>
                                 <div class="thumb_element_item1">
@@ -1122,481 +1105,123 @@
                         </section>
                     </div>
                 </div>
-                <div class="home_wrapper_element">
-                    <div class="home_wrapper_heading">
-                        <h2 class="home_wrapper_heading_element">
-                            Videos nổi bật
-                        </h2>
-                        <a href="" class="xemlotrinh">
-                            Xem tất cả >
-                        </a>
-                    </div>
-                    <section class="index_home_wrapper_body">
-                        <section class="">
-                            <div style="position: relative;">
-                                <div class="play_button">
-                                    <div class="play_button_left">
-                                        <span>
-                                            <i class="fa-solid fa-play"></i>
-                                        </span>
-                                    </div>
-                                    <div class="play_button_right">
-                                        34:51
-                                    </div>
-                                </div>
-                                <a class="thumb" href=""
-                                    style="background-image: url('https://i.ytimg.com/vi/YH-E4Y3EaT4/maxresdefault.jpg');">
-                                    <div class="thumb_element">
-                                        <button>
-                                            Xem video
-                                        </button>
-                                    </div>
-
-                                </a>
-                            </div>
-                            <div>
-                                <h3 style="padding: 10px 0 10px;">
-                                    <a href="" style="font-size: 15px;font-weight: 600;">Sinh Viên IT đi thực tập
-                                        tại doanh...</a>
-                                </h3>
-                            </div>
-                            <div class="thumb_element_item1">
-                                <div>
-                                    <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                    <span class="access">222.910</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                    <span class="access">5.690</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                    <span class="access">229</span>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="">
-                            <div style="position: relative;">
-                                <div class="play_button">
-                                    <div class="play_button_left">
-                                        <span>
-                                            <i class="fa-solid fa-play"></i>
-                                        </span>
-                                    </div>
-                                    <div class="play_button_right">
-                                        25:10
-                                    </div>
-                                </div>
-                                <a class="thumb" href=""
-                                    style="background-image: url('https://i.ytimg.com/vi/sgq7BH6WxL8/maxresdefault.jpg');">
-                                    <div class="thumb_element">
-                                        <button>
-                                            Xem video
-                                        </button>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div>
-                                <h3 style="padding: 10px 0 10px;">
-                                    <a href="" style="font-size: 15px;font-weight: 600;">"Code Thiếu Nhi Battle"
-                                        Tranh Giành...</a>
-                                </h3>
-                            </div>
-                            <div class="thumb_element_item1">
-                                <div>
-                                    <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                    <span class="access">263.426</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                    <span class="access">5.526</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                    <span class="access">188</span>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="">
-                            <div style="position: relative;">
-                                <div class="play_button">
-                                    <div class="play_button_left">
-                                        <span>
-                                            <i class="fa-solid fa-play"></i>
-                                        </span>
-                                    </div>
-                                    <div class="play_button_right">
-                                        24:06
-                                    </div>
-                                </div>
-                                <a class="thumb" href=""
-                                    style="background-image: url('https://i.ytimg.com/vi/DpvYHLUiZpc/maxresdefault.jpg');">
-                                    <div class="thumb_element">
-                                        <button>
-                                            Xem video
-                                        </button>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div>
-                                <h3 style="padding: 10px 0 10px;">
-                                    <a href="" style="font-size: 15px;font-weight: 600;">Phương pháp học lập trình
-                                        của Admi...</a>
-                                </h3>
-                            </div>
-                            <div class="thumb_element_item1">
-                                <div>
-                                    <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                    <span class="access">107.736</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                    <span class="access">5.453</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                    <span class="access">325</span>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="">
-                            <div style="position: relative;">
-                                <div class="play_button">
-                                    <div class="play_button_left">
-                                        <span>
-                                            <i class="fa-solid fa-play"></i>
-                                        </span>
-                                    </div>
-                                    <div class="play_button_right">
-                                        03:15
-                                    </div>
-                                </div>
-                                <a class="thumb" href=""
-                                    style="background-image: url('https://i.ytimg.com/vi/R6plN3FvzFY/maxresdefault.jpg');">
-                                    <div class="thumb_element">
-                                        <button>
-                                            Xem video
-                                        </button>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div>
-                                <h3 style="padding: 10px 0 10px;">
-                                    <a href="" style="font-size: 15px;font-weight: 600;">Bạn sẽ làm được gì sau khóa
-                                        học?</a>
-                                </h3>
-                            </div>
-                            <div class="thumb_element_item1">
-                                <div>
-                                    <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                    <span class="access">655.061</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                    <span class="access">4.057</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                    <span class="access">120</span>
-                                </div>
-                            </div>
-                        </section>
-                    </section>
-                    <section class="index_home_wrapper_body">
-                        <section class="">
-                            <div style="position: relative;">
-                                <div class="play_button">
-                                    <div class="play_button_left">
-                                        <span>
-                                            <i class="fa-solid fa-play"></i>
-                                        </span>
-                                    </div>
-                                    <div class="play_button_right">
-                                        25:40
-                                    </div>
-                                </div>
-                                <a class="thumb" href=""
-                                    style="background-image: url('https://i.ytimg.com/vi/oF7isq9IjZM/maxresdefault.jpg');">
-                                    <div class="thumb_element">
-                                        <button>
-                                            Xem Xem video
-
-                                        </button>
-                                    </div>
-
-                                </a>
-                            </div>
-                            <div>
-                                <h3 style="padding: 10px 0 10px;">
-                                    <a href="" style="font-size: 15px;font-weight: 600;">Làm sao để có thu nhập cao
-                                        và đi xa</a>
-                                </h3>
-                            </div>
-                            <div class="thumb_element_item1">
-                                <div>
-                                    <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                    <span class="access">75.060</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                    <span class="access">3.249</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                    <span class="access">230</span>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="">
-                            <div style="position: relative;">
-                                <div class="play_button">
-                                    <div class="play_button_left">
-                                        <span>
-                                            <i class="fa-solid fa-play"></i>
-                                        </span>
-                                    </div>
-                                    <div class="play_button_right">
-                                        07:53
-                                    </div>
-                                </div>
-                                <a class="thumb" href=""
-                                    style="background-image: url('https://i.ytimg.com/vi/0SJE9dYdpps/maxresdefault.jpg');">
-                                    <div class="thumb_element">
-                                        <button>
-                                            Xem video
-                                        </button>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div>
-                                <h3 style="padding: 10px 0 10px;">
-                                    <a href="" style="font-size: 15px;font-weight: 600;">Javascript có thể làm được
-                                        gì? Giới...</a>
-                                </h3>
-                            </div>
-                            <div class="thumb_element_item1">
-                                <div>
-                                    <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                    <span class="access">556.712</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                    <span class="access">3.140</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                    <span class="access">114</span>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="">
-                            <div style="position: relative;">
-                                <div class="play_button">
-                                    <div class="play_button_left">
-                                        <span>
-                                            <i class="fa-solid fa-play"></i>
-                                        </span>
-                                    </div>
-                                    <div class="play_button_right">
-                                        10:41
-                                    </div>
-                                </div>
-                                <a class="thumb" href=""
-                                    style="background-image: url('https://i.ytimg.com/vi/x0fSBAgBrOQ/maxresdefault.jpg');">
-                                    <div class="thumb_element">
-                                        <button>
-                                            Xem video
-                                        </button>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div>
-                                <h3 style="padding: 10px 0 10px;">
-                                    <a href="" style="font-size: 15px;font-weight: 600;">ReactJS là gì? Tại sao lại
-                                        học ?</a>
-                                </h3>
-                            </div>
-                            <div class="thumb_element_item1">
-                                <div>
-                                    <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                    <span class="access">276.388</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                    <span class="access">2.908</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                    <span class="access">350</span>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="">
-                            <div style="position: relative;">
-                                <div class="play_button">
-                                    <div class="play_button_left">
-                                        <span>
-                                            <i class="fa-solid fa-play"></i>
-                                        </span>
-                                    </div>
-                                    <div class="play_button_right">
-                                        35:04
-                                    </div>
-                                </div>
-                                <a class="thumb" href=""
-                                    style="background-image: url('https://i.ytimg.com/vi/G19jZzK5FWI/maxresdefault.jpg');">
-                                    <div class="thumb_element">
-                                        <button>
-                                            Xem video
-                                        </button>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div>
-                                <h3 style="padding: 10px 0 10px;">
-                                    <a href="" style="font-size: 15px;font-weight: 600;">Học Flexbox qua ví dụ</a>
-                                </h3>
-                            </div>
-                            <div class="thumb_element_item1">
-                                <div>
-                                    <i class="fa-solid fa-eye" style="color: #5d636f;"></i>
-                                    <span class="access">166.042</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-thumbs-up" style="color: #6e7581;"></i>
-                                    <span class="access">2.497</span>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-comment" style="color: #636e83;"></i>
-                                    <span class="access">175</span>
-                                </div>
-                            </div>
-                        </section>
-                    </section>
-                </div>
             </div>
-
-    </div>
-    <script src="/web.js"></script>
-    <!-- <div id="test">
+            <script src="/web.js"></script>
+            <!-- <div id="test">
 
                 </div> -->
 
-    </main>
-    <button class="new-feed-btn" data-toggle="modal" data-target="#feed-modal">
-        <i class="ti-rss-alt"></i>
-        <span class="new-feed-hover">Bảng tin F8</span>
-    </button>
-    <div class="modal fade" id="feed-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="feed-modal-title">Bảng Tin F8</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <h5 class="modal-title">Giờ đây, bạn có thể cấu hình cách bạn nhận thông báo 🎉</h5>
-                    <p class="modal-time">một tháng trước</p>
-                    <div class="modal-container">
-                        <p>Truy cập Avatar -> Cài đặt -> Thông báo để cấu hình cách mà tài khoản của bạn nhận thông báo
-                            từ hệ thống F8 nhé.</p>
-                        <img src="image/blog/modal-img1.png" alt="" srcset="">
-                        <p>Chúc bạn học tập vui vẻ</p>
-                        <span class="author">Đăng bởi <a href="#">Sơn Đặng <i class="fa-solid fa-circle-check"
-                                    style="color: #005eff;"></i></a></span>
+        </main>
+        <button class="new-feed-btn" data-toggle="modal" data-target="#feed-modal">
+            <i class="ti-rss-alt"></i>
+            <span class="new-feed-hover">Bảng tin F8</span>
+        </button>
+        <div class="modal fade" id="feed-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="feed-modal-title">Bảng Tin F8</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <div class="modal-body">
+                        <h5 class="modal-title">Giờ đây, bạn có thể cấu hình cách bạn nhận thông báo 🎉</h5>
+                        <p class="modal-time">một tháng trước</p>
+                        <div class="modal-container">
+                            <p>Truy cập Avatar -> Cài đặt -> Thông báo để cấu hình cách mà tài khoản của bạn nhận thông
+                                báo
+                                từ hệ thống F8 nhé.</p>
+                            <img src="image/blog/modal-img1.png" alt="" srcset="">
+                            <p>Chúc bạn học tập vui vẻ</p>
+                            <span class="author">Đăng bởi <a href="#">Sơn Đặng <i class="fa-solid fa-circle-check"
+                                        style="color: #005eff;"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="footer-bg">
-        <footer>
-            <div class="footer-container">
-                <div class="footer-item" style="width: 25%;">
-                    <div class="footer-item-header">
-                        <img src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png" alt="f8"
-                            style="height: 38px;width:38px;border-radius:8px">
-                        <span class="footer-item-title">Học Lập Trình Để Đi Làm</span>
+        <div class="footer-bg">
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-item" style="width: 25%;">
+                        <div class="footer-item-header">
+                            <img src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png" alt="f8"
+                                style="height: 38px;width:38px;border-radius:8px">
+                            <span class="footer-item-title">Học Lập Trình Để Đi Làm</span>
+                        </div>
+                        <div class="footer-item-contact-list">
+                            Điện thoại:
+                            <a href="#a">0944.xxx.xxx</a><br>
+                            Email:
+                            <a href="#a">thmnh113@gmail.com</a><br>
+                            Địa chỉ: Số xx Phạm Văn Đồng, , Thành phố Thủ Đức TP.HCM
+                        </div>
                     </div>
-                    <div class="footer-item-contact-list">
-                        Điện thoại:
-                        <a href="#a">0944.xxx.xxx</a><br>
-                        Email:
-                        <a href="#a">thmnh113@gmail.com</a><br>
-                        Địa chỉ: Số xx Phạm Văn Đồng, , Thành phố Thủ Đức TP.HCM
+                    <div class="footer-item">
+                        <h2 class="footer-item-title">VỀ F8</h2>
+                        <ul class="footer-item-list">
+                            <li> <a href="#a">Giới thiệu</a> </li>
+                            <li> <a href="#a">Liên hệ</a> </li>
+                            <li> <a href="#a">Điều khoản</a> </li>
+                            <li> <a href="#a">Bảo mật</a> </li>
+                            <li> <a href="#a">Cơ hội việc làm</a> </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="footer-item">
-                    <h2 class="footer-item-title">VỀ F8</h2>
-                    <ul class="footer-item-list">
-                        <li> <a href="#a">Giới thiệu</a> </li>
-                        <li> <a href="#a">Liên hệ</a> </li>
-                        <li> <a href="#a">Điều khoản</a> </li>
-                        <li> <a href="#a">Bảo mật</a> </li>
-                        <li> <a href="#a">Cơ hội việc làm</a> </li>
-                    </ul>
-                </div>
-                <div class="footer-item">
-                    <h2 class="footer-item-title">SẢN PHẨM</h2>
-                    <ul class="footer-item-list">
-                        <li> <a href="#a">Game Nester</a> </li>
-                        <li> <a href="#a">Game CSS Diner</a> </li>
-                        <li> <a href="#a">Game CSS Selectors</a> </li>
-                        <li> <a href="#a">Game Froggy</a> </li>
-                        <li> <a href="#a">Game Froggy Pro</a> </li>
-                        <li> <a href="#a">Game Scoops</a> </li>
-                    </ul>
-                </div>
-                <div class="footer-item">
-                    <h2 class="footer-item-title">CÔNG CỤ</h2>
-                    <ul class="footer-item-list">
-                        <li> <a href="#a">Tạo CV xin việc</a> </li>
-                        <li> <a href="#a">Rút gọn liên kết</a> </li>
-                        <li> <a href="#a">Clip-path maker</a> </li>
-                        <li> <a href="#a">Snippet generator</a> </li>
-                        <li> <a href="#a">Cảnh báo sờ tay lên mặt</a> </li>
-                    </ul>
-                </div>
-                <div class="footer-item" style="width: 25%;">
-                    <div class="footer-item-header">
+                    <div class="footer-item">
+                        <h2 class="footer-item-title">SẢN PHẨM</h2>
+                        <ul class="footer-item-list">
+                            <li> <a href="#a">Game Nester</a> </li>
+                            <li> <a href="#a">Game CSS Diner</a> </li>
+                            <li> <a href="#a">Game CSS Selectors</a> </li>
+                            <li> <a href="#a">Game Froggy</a> </li>
+                            <li> <a href="#a">Game Froggy Pro</a> </li>
+                            <li> <a href="#a">Game Scoops</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h2 class="footer-item-title">CÔNG CỤ</h2>
+                        <ul class="footer-item-list">
+                            <li> <a href="#a">Tạo CV xin việc</a> </li>
+                            <li> <a href="#a">Rút gọn liên kết</a> </li>
+                            <li> <a href="#a">Clip-path maker</a> </li>
+                            <li> <a href="#a">Snippet generator</a> </li>
+                            <li> <a href="#a">Cảnh báo sờ tay lên mặt</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer-item" style="width: 25%;">
+                        <div class="footer-item-header">
 
-                        <span class="footer-item-title">CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8</span>
-                    </div>
-                    <div class="footer-item-contact-list">
-                        Mã số thuế: 010992xxxx
-                        <br>
-                        Ngày thành lập: 10/04/2023
-                        <br>
-                        Lĩnh vực: Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá
-                        trị
-                        cho cộng đồng.
+                            <span class="footer-item-title">CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8</span>
+                        </div>
+                        <div class="footer-item-contact-list">
+                            Mã số thuế: 010992xxxx
+                            <br>
+                            Ngày thành lập: 10/04/2023
+                            <br>
+                            Lĩnh vực: Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại
+                            giá
+                            trị
+                            cho cộng đồng.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="footer-final">
-                <div class="footer-copyright">&#169; 2022 - 2023 F8. Vjp Pro mãi đỉnh</div>
-                <div class="footer-social">
-                    <img src="image/youtube.png" alt="" class="footer-social-icon">
-                    <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/128/facebook-icon.png"
-                        class="footer-social-icon">
-                    <img src="image/tiktok.png" class="footer-social-icon">
+                <div class="footer-final">
+                    <div class="footer-copyright">&#169; 2022 - 2023 F8. Vjp Pro mãi đỉnh</div>
+                    <div class="footer-social">
+                        <img src="image/youtube.png" alt="" class="footer-social-icon">
+                        <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/128/facebook-icon.png"
+                            class="footer-social-icon">
+                        <img src="image/tiktok.png" class="footer-social-icon">
+                    </div>
                 </div>
-            </div>
-        </footer>
-    </div>
+            </footer>
+        </div>
 
 </body>
 

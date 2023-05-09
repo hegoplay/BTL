@@ -15,6 +15,7 @@ footer {
     max-width: var(100%-16px);
     padding: 68px 0;
     background-color: #181821;
+    z-index: 2;
 }
 
 .footer-container {

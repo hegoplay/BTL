@@ -3,15 +3,17 @@ h2{
     font-size: 1.5rem;
 }
 .home_wrapper{
-    margin-top: 70px;
+    margin-top: 10px;
     overflow: hidden;
-    padding: 0 44px 74px
+    padding-left:  15px ;
+    
 }
     .home_wrapper_heading{
         display: flex;
         align-items: center;
         height: 60px;
         justify-content: space-between;
+        /* margin-top: 80px; */
     }
     .home_wrapper_heading_element{
         color: #242424;
@@ -20,12 +22,13 @@ h2{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        font-size: 2.5rem;
     }
     .home_wrapper_heading_lable{
         background-color: #1473e6;
         border-radius: 4px;
         color: #fff;
-        font-size: 0.8rem;
+        font-size: 1.5rem;
         font-weight: 500;
         padding: 3px 6px;
         position: relative;
@@ -33,11 +36,25 @@ h2{
         text-transform: uppercase;
         top: -6px;
     }
+.home_wrapper_body{
+    width: 95%;
+}
+.heading{
+    padding-bottom: 70px;
+}
+.heading h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.heading p{
+    font-size: 1.5rem;
 
+}
 .index_home_wrapper_body{
     display: flex;
     flex-wrap: wrap;
     height: 260px;
+    justify-content: space-between;
 }
 .thumb {
     background-color: rgba(0,0,0,.1);
@@ -59,7 +76,7 @@ h2{
         height: 100%;
         background-color: rgba(0,0,0,.5);
         color: #000;
-        font-size: 15px;
+        font-size: 1.5rem;
         align-items: center;
         justify-content: center;
         border-radius: 20px;
@@ -83,7 +100,7 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.5;
     font-weight: 600;
     padding: 12px 24px;
@@ -116,31 +133,30 @@ h2{
     top: 12px;
 }
 .oldprice{
-    font-size: 0.9rem;
+    font-size: 1.4rem;
     text-decoration: line-through 2px solid;
 }
 .newprice{
     color: red;
+    font-size: 1.4rem;
 }
 
-.index_home_wrapper_body{
-    justify-content: space-between;
-}
 .home_wrapper_element_p{
     color: #82919b;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
    
 }
-.xemlotrinh{
+.home_wrapper_heading a{
    color: #F3734F; 
-   font-size: 0.9rem;
+   font-size: 1.4rem;
    font-weight: 600;
 }
 .xemlotrinh:hover{
     text-decoration: underline;
+    color: #F3734F; 
 }
 .access{
-    font-size: 0.9rem;
+    font-size: 1.4rem;
     margin-bottom: 0;
 }
 /* bai viet noi bac */
@@ -166,7 +182,7 @@ h2{
 }
 .thumb_element_item span{
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
 }
 
 .play_button{
@@ -194,5 +210,48 @@ h2{
     align-items: center;
     justify-content: center;
     border: 1px solid white;
+    font-size: 1.4rem;
+}
+section a:hover{
+    outline: none;
+    color: #000;
+    text-decoration: none;
+}
+.suggest{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.suggest_img img{
+    width: 420px;
+}
+.suggest_info{
+    width: 400px;
+    height: 270px;
+}
+.suggest_info h2{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.suggest_info p{
     font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+.suggest_info a{
+    border: 2px solid black;
+    padding: 10px 16px;
+    margin-top: 10px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 900px;
+    transition: .2s ease;
+    width: 110px;
+    color: black;
+}
+.suggest_info a:hover{
+    background-color: #292929;
+    color: #fff;
+    text-decoration: none;
 }
