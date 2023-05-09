@@ -97,7 +97,7 @@ a:hover {
     width: calc(100%/3 - 1px);
 }
 
-.close {
+.closed {
     display: none
 }
 
@@ -250,6 +250,15 @@ main {
 
 .menu2:hover {
     background-color: #E8EBED;
+    text-decoration: none;
+}
+
+.menu2 * {
+    color: var(--gray-color)
+}
+
+.menu2:hover * {
+    text-decoration: none;
 }
 
 .menu-active {
@@ -260,12 +269,12 @@ main {
 #user-info {
     text-transform: none;
     display: none;
-    width: 200px;
+    min-width: 240px;
     position: absolute;
     z-index: 10;
     right: 5px;
     top: 67px;
-    padding: 12px;
+    padding: 12px 16px;
     font-size: 1.4rem;
     background-color: white;
     border-radius: 8px;
@@ -295,9 +304,10 @@ main {
     font-size: 1.6rem;
 }
 
-#user-info.user-desc {
+#user-info .user-desc {
     font-size: 1.4rem;
     opacity: 0.6;
+    margin: 0;
 }
 
 #user-info .user-heading {
@@ -313,20 +323,24 @@ main {
     font-size: 1.4rem;
     padding: 1rem 0;
     opacity: 0.7;
+    color: var(--gray-color);
 }
 
 #user-info .user-container-row:hover {
     opacity: 0.8;
+    text-decoration: none;
 }
+
 
 #user-info .line-break {
     margin: 8px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+
 @keyframes flowDown {
     from {
-        top: 0;
+        top: 30px;
         opacity: 0;
     }
 
@@ -336,6 +350,18 @@ main {
     }
 }
 
-.menu2:hover {
-    background-color: #E8EBED;
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+    height: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d9d9d9;
+    border-radius: 10px;
 }
