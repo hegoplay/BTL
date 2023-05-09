@@ -58,8 +58,23 @@ a {
     color: var(--gray-color);
 }
 
-a:hover {
+section a:hover {
     color: var(--black-color)
+}
+
+section a:focus,
+section a:hover,
+section a:visited {
+    outline: none;
+    color: #000;
+    text-decoration: none;
+
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    color: var(--gray-color);
 }
 
 .row {
