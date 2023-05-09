@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/CssHome/main.css" />
+    <link rel="stylesheet" href="./css/CssHome/slidebar.css" />
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="shortcut icon" href="image/f8_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/fonts/themify-icons.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/545c91a9e5.js" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/blog.css">
+    <title>Danh sách bài viết về lĩnh vực IT / CNTT / Phần mềm / lập trình tại F8</title>
+</head>
+
+<body>
+    <!-- Begin navbar -->
+    <div class="navi">
+        <div class="row">
+            <div class="col col-triple row-flex">
+                <a class="nav-return" href="index.html">
+                    <img src="image/f8_icon.png" alt="" class="image_small">
+                    <i class="ti-angle-left  nav-text js-left-arrow"></i>
+                    <span class="nav-text">Quay lại</span>
+                </a>
+            </div>
+            <div class="col col-triple row-flex flex-center">
+                <input type="text" class="nav-search-bar" style="background-image: url(image/search.webp);"
+                    placeholder="Tìm kiếm khóa học, bài viết, video, ...">
+            </div>
+            <div class="col col-triple row-flex flex-right">
+                <button class="khoa-hoc-btn js-khoa-hoc-btn">Khoá học của tôi</button>
+                <i class="ti-bell nav-bell"></i>
+                <img src="image/User-Icon-Grey.png" alt="" class="usericon" onclick="userIconOnClick()">
+            </div>
+            <div id="user-info">
+                <div class="user-heading">
+                    <img src="/image/User-Icon-Grey.png" alt="" class="usericon user-img">
+                    <div class="user-txt">
+                        <h3 class="user-name">Phạm Thế Mạnh</h3>
+                        <p class="user-desc">@phamTheManh</p>
+                    </div>
+
+                </div>
+                <div class="user-container">
+                    <div class="line-break"></div>
+                    <a href="#" class="user-container-row">Trang cá nhân</a>
+
+
+                    <div class="line-break"></div>
+                    <a href="#" class="user-container-row">
+                        Viết blog
+                    </a>
+                    <a href="#" class="user-container-row">
+                        Bài viết của tôi
+                    </a>
+                    <div class="line-break"></div>
+                    <a href="#" class="user-container-row">
+                        Bài viết đã lưu
+                    </a>
+                    <div class="line-break"></div>
+                    <a href="#" class="user-container-row">
+                        Cài đặt
+                    </a>
+                    <a href="login.html" class="user-container-row">Đăng xuất</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar -->
+    <!-- Begin content -->
+    <div class="content">
+        <div class="slidebar">
+            <div class="slidebar-create-btn">
+                <i class="ti-plus"></i>
+            </div>
+            <div class="slidebar-sub-btn">
+                <a href="index.html" class="slidebar-square-btn">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="btn-txt">Home</span>
+                </a>
+                <a href="LoTrinh.html" class="slidebar-square-btn">
+                    <i class="fa-solid fa-road"></i>
+                    <span class="btn-txt">Lộ trình</span>
+                </a>
+                <a href="hoc.html" class="slidebar-square-btn">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <span class="btn-txt">Học</span>
+                </a>
+                <a class="slidebar-square-btn btn-selected">
+                    <i class="fa-solid fa-newspaper"></i>
+                    <span class="btn-txt">Blog</span>
+                </a>
+
+            </div>
+        </div>
+        <div class="layout">
+            <div class="container-fluid">
+                <div class=" container-fluid container-top">
+                    <h1 class="container-top-header row">Bài viết nổi bật</h1>
+                    <p class="container-top-desc row">Tổng hợp các bài viết chia sẻ về kinh nghiệm tự học lập trình
+                        online
+                        và
+                        các kỹ thuật lập trình web.
+                    </p>
+                </div>
+                <div class="container">
+
+                </div>
+                <div class="container-main row">
+                    <div class="blog-left-layout col-7">
+                        <div class="post-item container-fluid">
+                            <div class="post-item-author">
+                                <div class="flex-left row-flex">
+                                    <img src="image/user1.jpg" alt="" class="author-img float-left">
+                                    <p class="author-name float-left">Malaze KL</p>
+                                </div>
+                                <div class="flex-right">
+                                    <div class="post-item-option float-right"><i class="fa-solid fa-ellipsis"></i></div>
+                                    <div class="post-save float-right"><i class="fa-solid fa-bookmark"></i></div>
+                                </div>
+                            </div>
+                            <div class="post-item-content">
+                                <div class="post-item-text">
+                                    <a href="">
+                                        <h3 class="post-item-title">Em Viết Bài Này Là Để Hỏi Làm Cách Nào Để Nhảy
+                                            Bài Khi Học Trên F8</h3>
+                                    </a>
+                                    <p class="post-item-desc">Chuyện là trước đây em từng học HTML và CSS trên youtube
+                                        của F8 đến bài 16. xong rồi em muốn lên Web học để dễ dàng hơn. nhưng khổ...</p>
+                                    <p class="post-item-status">một ngày trước · 1 phút đọc</p>
+                                </div>
+                                <img src="image/blog/postItemImg1.jpg" alt="" class="post-item-img">
+                            </div>
+                        </div>
+                        <div class="post-item container-fluid">
+                            <div class="post-item-author">
+                                <div class="flex-left row-flex">
+                                    <img src="image/user2.jpg" alt="" class="author-img float-left">
+                                    <p class="author-name float-left">GzW</p>
+                                </div>
+                                <div class="flex-right">
+                                    <div class="post-item-option float-right"><i class="fa-solid fa-ellipsis"></i></div>
+                                    <div class="post-save float-right"><i class="fa-solid fa-bookmark"></i></div>
+                                </div>
+                            </div>
+                            <div class="post-item-content">
+                                <div class="post-item-text">
+                                    <a href="">
+                                        <h3 class="post-item-title">Học viên Funix lạc đường tới F8</h3>
+                                    </a>
+                                    <p class="post-item-desc">Mình đã tham gia khóa học lập trình 6 tháng ở funix và
+                                        cũng có nhiều lý do khác dẫn đến quá hạn quá học và cũng đã hoàn thành 4...</p>
+                                    <p class="post-item-status">16 ngày trước · 1 phút đọc</p>
+                                </div>
+                                <img src="image/blog/postItemImg2.jpg" alt="" class="post-item-img">
+                            </div>
+                        </div>
+                        <div class="post-item container-fluid">
+                            <div class="post-item-author">
+                                <div class="flex-left row-flex">
+                                    <img src="image/user2.jpg" alt="" class="author-img float-left">
+                                    <p class="author-name float-left">GzW</p>
+                                </div>
+                                <div class="flex-right">
+                                    <div class="post-item-option float-right"><i class="fa-solid fa-ellipsis"></i></div>
+                                    <div class="post-save float-right"><i class="fa-solid fa-bookmark"></i></div>
+                                </div>
+                            </div>
+                            <div class="post-item-content">
+                                <div class="post-item-text">
+                                    <a href="">
+                                        <h3 class="post-item-title">Học viên Funix lạc đường tới F8</h3>
+                                    </a>
+                                    <p class="post-item-desc">Mình đã tham gia khóa học lập trình 6 tháng ở funix và
+                                        cũng có nhiều lý do khác dẫn đến quá hạn quá học và cũng đã hoàn thành 4...</p>
+                                    <p class="post-item-status">16 ngày trước · 1 phút đọc</p>
+                                </div>
+                                <img src="image/blog/postItemImg2.jpg" alt="" class="post-item-img">
+                            </div>
+                        </div>
+                        <div class="post-item container-fluid">
+                            <div class="post-item-author">
+                                <div class="flex-left row-flex">
+                                    <img src="image/user2.jpg" alt="" class="author-img float-left">
+                                    <p class="author-name float-left">GzW</p>
+                                </div>
+                                <div class="flex-right">
+                                    <div class="post-item-option float-right"><i class="fa-solid fa-ellipsis"></i></div>
+                                    <div class="post-save float-right"><i class="fa-solid fa-bookmark"></i></div>
+                                </div>
+                            </div>
+                            <div class="post-item-content">
+                                <div class="post-item-text">
+                                    <a href="">
+                                        <h3 class="post-item-title">Học viên Funix lạc đường tới F8</h3>
+                                    </a>
+                                    <p class="post-item-desc">Mình đã tham gia khóa học lập trình 6 tháng ở funix và
+                                        cũng có nhiều lý do khác dẫn đến quá hạn quá học và cũng đã hoàn thành 4...</p>
+                                    <p class="post-item-status">16 ngày trước · 1 phút đọc</p>
+                                </div>
+                                <img src="image/blog/postItemImg2.jpg" alt="" class="post-item-img">
+                            </div>
+                        </div>
+                        <div class="post-item container-fluid">
+                            <div class="post-item-author">
+                                <div class="flex-left row-flex">
+                                    <img src="image/user2.jpg" alt="" class="author-img float-left">
+                                    <p class="author-name float-left">GzW</p>
+                                </div>
+                                <div class="flex-right">
+                                    <div class="post-item-option float-right"><i class="fa-solid fa-ellipsis"></i></div>
+                                    <div class="post-save float-right"><i class="fa-solid fa-bookmark"></i></div>
+                                </div>
+                            </div>
+                            <div class="post-item-content">
+                                <div class="post-item-text">
+                                    <a href="">
+                                        <h3 class="post-item-title">Học viên Funix lạc đường tới F8</h3>
+                                    </a>
+                                    <p class="post-item-desc">Mình đã tham gia khóa học lập trình 6 tháng ở funix và
+                                        cũng có nhiều lý do khác dẫn đến quá hạn quá học và cũng đã hoàn thành 4...</p>
+                                    <p class="post-item-status">16 ngày trước · 1 phút đọc</p>
+                                </div>
+                                <img src="image/blog/postItemImg2.jpg" alt="" class="post-item-img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-right-layout col-5">
+                        <div class="flex-column">
+                            <h2 class="topic-header">Các chủ đề được đề xuất</h2>
+                            <div class="topic-list">
+                                <a href="#a">
+                                    <div class="topic-item">Front-end / Mobile apps</div>
+                                </a>
+                                <a href="#a">
+                                    <div class="topic-item">Back-end / Devops</div>
+                                </a>
+                                <a href="#a">
+                                    <div class="topic-item">UI / UX / Design</div>
+                                </a>
+                                <a href="#a">
+                                    <div class="topic-item">Others</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="banners">
+                            <a href="" class="banner-link">
+                                <img src="image/blog/banner1.png" alt="HTML CSS Pro Banner" title="HTML CSS Pro Banner"
+                                    class="banner-img">
+                            </a>
+                            <a href="" class="banner-link">
+                                <img src="image/blog/banner2.png" alt="HTML CSS Pro Banner" title="HTML CSS Pro Banner"
+                                    class="banner-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-bg">
+        <footer>
+            <div class="footer-container">
+                <div class="footer-item" style="width: 25%;">
+                    <div class="footer-item-header">
+                        <img src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png" alt="f8"
+                            style="height: 38px;width:38px;border-radius:8px">
+                        <span class="footer-item-title">Học Lập Trình Để Đi Làm</span>
+                    </div>
+                    <div class="footer-item-contact-list">
+                        Điện thoại:
+                        <a href="#a">0944.xxx.xxx</a><br>
+                        Email:
+                        <a href="#a">thmnh113@gmail.com</a><br>
+                        Địa chỉ: Số xx Phạm Văn Đồng, , Thành phố Thủ Đức TP.HCM
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <h2 class="footer-item-title">VỀ F8</h2>
+                    <ul class="footer-item-list">
+                        <li> <a href="#a">Giới thiệu</a> </li>
+                        <li> <a href="#a">Liên hệ</a> </li>
+                        <li> <a href="#a">Điều khoản</a> </li>
+                        <li> <a href="#a">Bảo mật</a> </li>
+                        <li> <a href="#a">Cơ hội việc làm</a> </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h2 class="footer-item-title">SẢN PHẨM</h2>
+                    <ul class="footer-item-list">
+                        <li> <a href="#a">Game Nester</a> </li>
+                        <li> <a href="#a">Game CSS Diner</a> </li>
+                        <li> <a href="#a">Game CSS Selectors</a> </li>
+                        <li> <a href="#a">Game Froggy</a> </li>
+                        <li> <a href="#a">Game Froggy Pro</a> </li>
+                        <li> <a href="#a">Game Scoops</a> </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h2 class="footer-item-title">CÔNG CỤ</h2>
+                    <ul class="footer-item-list">
+                        <li> <a href="#a">Tạo CV xin việc</a> </li>
+                        <li> <a href="#a">Rút gọn liên kết</a> </li>
+                        <li> <a href="#a">Clip-path maker</a> </li>
+                        <li> <a href="#a">Snippet generator</a> </li>
+                        <li> <a href="#a">Cảnh báo sờ tay lên mặt</a> </li>
+                    </ul>
+                </div>
+                <div class="footer-item" style="width: 25%;">
+                    <div class="footer-item-header">
+
+                        <span class="footer-item-title">CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8</span>
+                    </div>
+                    <div class="footer-item-contact-list">
+                        Mã số thuế: 010992xxxx
+                        <br>
+                        Ngày thành lập: 10/04/2023
+                        <br>
+                        Lĩnh vực: Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá
+                        trị
+                        cho cộng đồng.
+                    </div>
+                </div>
+            </div>
+            <div class="footer-final">
+                <div class="footer-copyright">&#169; 2022 - 2023 F8. Vjp Pro mãi đỉnh</div>
+                <div class="footer-social">
+                    <img src="image/youtube.png" alt="" class="footer-social-icon">
+                    <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/128/facebook-icon.png"
+                        class="footer-social-icon">
+                    <img src="image/tiktok.png" class="footer-social-icon">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <button class="new-feed-btn" data-toggle="modal" data-target="#feed-modal">
+        <i class="ti-rss-alt" style="font-size: 14px;"></i>
+        <span class="new-feed-hover">Bảng tin F8</span>
+    </button>
+    <div class="modal fade" id="feed-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="feed-modal-title">Bảng Tin F8</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="modal-title">Giờ đây, bạn có thể cấu hình cách bạn nhận thông báo 🎉</h5>
+                    <p class="modal-time">một tháng trước</p>
+                    <div class="modal-container">
+                        <p>Truy cập Avatar -> Cài đặt -> Thông báo để cấu hình cách mà tài khoản của bạn nhận thông báo
+                            từ hệ thống F8 nhé.</p>
+                        <img src="image/blog/modal-img1.png" alt="" srcset="">
+                        <p>Chúc bạn học tập vui vẻ</p>
+                        <span class="author">Đăng bởi <a href="#">Sơn Đặng <i class="fa-solid fa-circle-check"
+                                    style="color: #005eff;"></i></a></span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/blog.js"></script>
+</body>
+
+</html>

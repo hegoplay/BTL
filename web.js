@@ -5,11 +5,10 @@ var currentIndex = 0;
 var intervalID;
 
 function showImage(index) {
-    if(index < 0){
-        index = images.length -1;
+    if (index < 0) {
+        index = images.length - 1;
     }
-    else if (index >= images.length)
-    {
+    else if (index >= images.length) {
         index = 0;
     }
     images[currentIndex].classList.remove("active");
@@ -26,22 +25,22 @@ function showPrevious() {
 }
 
 function startSlider() {
-    intervalID = setInterval(showNext,1000);
+    intervalID = setInterval(showNext, 1000);
 }
 
 function stopSlider() {
     clearInterval(intervalID);
 }
 
-prevBtn.addEventListener("click", function() {
+prevBtn.addEventListener("click", function () {
     // console.log(123);
     stopSlider();
     showPrevious();
 });
 
-nextBtn.addEventListener("click", function() {
+nextBtn.addEventListener("click", function () {
     // console.log(456);
-    
+
     stopSlider();
     showNext();
 });
@@ -49,17 +48,17 @@ nextBtn.addEventListener("click", function() {
 startSlider();
 
 // hien thi trang user khi click vao
-let userInfo = document.getElementById("user-info")
-let onOff= 1;
-function userIconOnClick(){
-    if (onOff == 1){
-        userInfo.style.display = "block";
-        userInfo.style.transform = "translateX(-10px)"
+let userInfo = document.querySelector('#user-info')
+console.log()
+let onOff = 1;
+function userIconOnClick() {
+    if (onOff == 1) {
+        userInfo.classList.add('open')
         onOff = 0;
     }
-    else{
-        userInfo.style.display = "none";
+    else {
+        userInfo.classList.remove('open')
         onOff = 1;
     }
-    
+
 }

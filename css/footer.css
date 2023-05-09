@@ -125,3 +125,117 @@ footer {
     display: inline-flex;
     gap: 10px;
 }
+
+
+.new-feed-btn {
+    bottom: 60px;
+    left: 22px;
+    position: fixed;
+    border-radius: 50%;
+    z-index: 2;
+    padding: 10px;
+    background-color: hsla(0, 0%, 94%, .8);
+    outline: none;
+    border: transparent;
+    cursor: pointer;
+}
+
+.new-feed-btn:hover {
+    background-color: hsla(0, 0%, 94%, 1);
+}
+
+.new-feed-btn i {
+    font-size: 2.4rem;
+}
+
+.new-feed-btn:focus {
+    border: transparent;
+    outline: none;
+}
+
+.new-feed-hover {
+    bottom: 120px;
+    left: 8px;
+    position: fixed;
+    font-size: 1.4rem;
+    padding: 4px 8px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border-radius: 8px;
+    display: inline-block;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.new-feed-btn:hover .new-feed-hover {
+    opacity: 1;
+}
+
+.modal-dialog {
+    min-width: 60vw;
+
+}
+
+.modal-content {
+    border-radius: 16px;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.modal-header .modal-title {
+    font-size: 2.4rem;
+}
+
+.modal-body .modal-title {
+    font-size: 1.8rem;
+}
+
+.close span {
+    font-size: 2.4rem;
+}
+
+.close {
+    opacity: 0.7;
+    margin-right: 10px !important;
+}
+
+.close:focus,
+.close:hover {
+    outline: none;
+    opacity: 1 !important;
+}
+
+.modal-body .modal-time {
+    font-size: 1.3rem;
+    color: #999;
+    margin: 4px 0 0;
+}
+
+.modal-body .modal-container {
+    padding-top: 12px;
+
+}
+
+.modal-body .modal-container p {
+    font-size: 1.6rem;
+}
+
+.author {
+    font-size: 1.2rem;
+}
+
+.author>a {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 700;
+    color: var(--primary-color) !important;
+}
+
+.author>a:hover {
+    text-decoration: none;
+}
