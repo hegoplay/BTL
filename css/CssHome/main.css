@@ -250,6 +250,15 @@ main {
 
 .menu2:hover {
     background-color: #E8EBED;
+    text-decoration: none;
+}
+
+.menu2 * {
+    color: var(--gray-color)
+}
+
+.menu2:hover * {
+    text-decoration: none;
 }
 
 .menu-active {
@@ -327,6 +336,7 @@ main {
     margin: 8px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 
 @keyframes flowDown {
     from {
